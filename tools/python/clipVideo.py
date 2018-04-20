@@ -4,13 +4,12 @@ import os.path
 import sys
 
 
-def splitVideo(video_path, out_path, interval, start, end):
+def clipVideo(video_path, out_path, start, end):
     """
-    拆分视频
+    截取视频片段
 
     :param video_path: 视频路径
-    :param out_path: 输出影像的文件夹
-    :param interval: 采样间隔，1表示逐帧输出
+    :param out_path: 输出视频名称
     :param start: 起始时间，单位为秒
     :param end: 结束时间，单位为秒
     :return: 空
@@ -24,6 +23,8 @@ def splitVideo(video_path, out_path, interval, start, end):
     # 获取视频的总帧数、fps
     frames = int(cap.get(7))
     fps = int(cap.get(5))
+    width = int(cap.get(3))
+    height = int(cap.get(4))
 
     print frames, 'frames in total.'
 
@@ -40,33 +41,36 @@ def splitVideo(video_path, out_path, interval, start, end):
         exit()
 
     # 输出提示信息
-    print rangeFrames / interval, 'frames are going to be outputted.'
+    print rangeFrames, 'frames are going to be outputted.'
 
     print '---Cutting---'
+
+    fourcc = cv2.VideoWriter_fourcc(*'XVID')
+    out = cv2.VideoWriter(out_path, fourcc, fps, (width, height))
 
     cap.set(cv2.CAP_PROP_POS_FRAMES, startIndex)
 
     # 循环输出帧
-    for i in range(startIndex, endIndex, interval):
+    for i in range(startIndex, endIndex, 1):
         cap.set(cv2.CAP_PROP_POS_FRAMES, i)
         ret, frame = cap.read()
         if frame is None:
             break
         else:
-            # 输出影像文件
-            cv2.imwrite(out_path + separator + "%04d" % (startIndex + i + 1) + ".jpg", frame)
+            out.write(frame)
             print 'Cutting...', round(((i - startIndex) * 1.0 / (rangeFrames)) * 100, 2), "% finished."
     # 释放对象
     cap.release()
+    out.release()
 
 
 if sys.argv.__len__() == 2 and sys.argv[1] == "help":
-    print("用于将视频拆分成一帧帧的图像，便于后续处理，支持设置起始、结束位置以及采样间隔\n")
+    print("用于剪切视频片段\n")
     print("脚本启动命令格式：")
-    print("scriptname.py:[video_path] [out_path] [interval] [start] [end]")
+    print("scriptname.py:[video_path] [out_path] [start] [end]")
     print("\n函数帮助:")
-    exec "help(splitVideo)"
-elif sys.argv.__len__() == 6:
-    splitVideo(sys.argv[1], sys.argv[2], int(sys.argv[3]), float(sys.argv[4]), float(sys.argv[5]))
+    exec "help(clipVideo)"
+elif sys.argv.__len__() == 5:
+    clipVideo(sys.argv[1], sys.argv[2], float(sys.argv[3]), float(sys.argv[4]))
 else:
     print("Input \"scriptname.py help\" for help information.")
