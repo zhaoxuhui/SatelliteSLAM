@@ -1,0 +1,7 @@
+/root/projects/triangulation_0322/cmake-build-debug/CMakeFiles/install/strip.dir
+/root/projects/triangulation_0322/cmake-build-debug/CMakeFiles/install/local.dir
+/root/projects/triangulation_0322/cmake-build-debug/CMakeFiles/install.dir
+/root/projects/triangulation_0322/cmake-build-debug/CMakeFiles/list_install_components.dir
+/root/projects/triangulation_0322/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/root/projects/triangulation_0322/cmake-build-debug/CMakeFiles/edit_cache.dir
+/root/projects/triangulation_0322/cmake-build-debug/CMakeFiles/triangulation_0322.dir

@@ -1,0 +1,7 @@
+/root/projects/triangulation_0322/build/CMakeFiles/install.dir
+/root/projects/triangulation_0322/build/CMakeFiles/list_install_components.dir
+/root/projects/triangulation_0322/build/CMakeFiles/rebuild_cache.dir
+/root/projects/triangulation_0322/build/CMakeFiles/triangulation_0322.dir
+/root/projects/triangulation_0322/build/CMakeFiles/install/strip.dir
+/root/projects/triangulation_0322/build/CMakeFiles/install/local.dir
+/root/projects/triangulation_0322/build/CMakeFiles/edit_cache.dir
