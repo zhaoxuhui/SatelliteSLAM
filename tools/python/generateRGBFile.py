@@ -20,7 +20,7 @@ def findAllImages(root_dir):
                     ".PNG"):
                 names.append(filename)
     names.sort()
-    print "All images loaded."
+    print ("All images loaded.")
     return names
 
 
@@ -50,8 +50,8 @@ if sys.argv.__len__() == 2 and sys.argv[1] == "help":
     print("脚本启动命令格式：")
     print("scriptname.py:[root_dir] [out_dir] [folder]")
     print("\n函数帮助:")
-    exec "help(findAllImages)"
-    exec "help(generateRGBfile)"
+    exec ("help(findAllImages)")
+    exec ("help(generateRGBfile)")
 elif sys.argv.__len__() == 4:
     root_dir = sys.argv[1]
     out_dir = sys.argv[2]

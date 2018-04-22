@@ -45,7 +45,6 @@ def correctionForCamera(inner_name, dist_name):
             k = cv2.waitKey(1) & 0xFF
             if k == 27:
                 break
-
     cap.release()
 
 
@@ -91,8 +90,8 @@ if sys.argv.__len__() == 2 and sys.argv[1] == "help":
     print("correctionForCamera:[inner_name] [dist_name]")
     print("correctionForImages:[inner_name] [dist_name] [ori_img]")
     print("\n函数帮助:")
-    exec "help(correctionForCamera)"
-    exec "help(correctionForImages)"
+    exec ("help(correctionForCamera)")
+    exec ("help(correctionForImages)")
 elif sys.argv.__len__() == 3:
     print("correctionForCamera")
     correctionForCamera(sys.argv[1], sys.argv[2])

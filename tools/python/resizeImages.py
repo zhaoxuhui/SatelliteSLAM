@@ -22,7 +22,7 @@ def findAllImages(root_dir):
                     ".PNG"):
                 paths.append(parent + separator + filename)
                 names.append(filename)
-    print "All images loaded."
+    print ("All images loaded.")
     return paths, names
 
 
@@ -42,8 +42,8 @@ def resizeImages(paths, out_dir, names, ratio):
         img = cv2.imread(paths[i])
         res = cv2.resize(img, None, fx=ratio, fy=ratio, interpolation=cv2.INTER_CUBIC)
         cv2.imwrite(out_dir + separator + names[i], res)
-        print i + 1, "/", paths.__len__()
-    print "All images are resized."
+        print ((i + 1).__str__() + "/" + paths.__len__().__str__())
+    print ("All images are resized.")
 
 
 if sys.argv.__len__() == 2 and sys.argv[1] == "help":
@@ -51,8 +51,8 @@ if sys.argv.__len__() == 2 and sys.argv[1] == "help":
     print("脚本启动命令格式：")
     print("scriptname.py:[root_dir] [out_dir] [ratio]")
     print("\n函数帮助:")
-    exec "help(findAllImages)"
-    exec "help(resizeImages)"
+    exec ("help(findAllImages)")
+    exec ("help(resizeImages)")
 elif sys.argv.__len__() == 4:
     root_dir = sys.argv[1]
     out_dir = sys.argv[2]

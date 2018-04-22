@@ -56,7 +56,7 @@ def calibrationWithCamera(ROWS, COLOMONS):
                     imgpoints.append(corners2)
                     cv2.imwrite(counter.__str__() + ".jpg", gray)
                     counter += 1
-                    print("1 image added,total", counter, "images.")
+                    print("1 image added,total " + counter.__str__(), " images.")
                 elif k == ord('c'):
                     if imgpoints.__len__() >= 10:
                         print("Calculating parameters...")
@@ -123,7 +123,7 @@ def calibrationWithImages(ROWS, COLOMONS):
             cv2.imshow('chessboard', img)
             cv2.waitKey(500)
             count += 1
-            print(count.__str__(), "/", images.__len__().__str__())
+            print(count.__str__() + "/" + images.__len__().__str__())
 
     cv2.destroyAllWindows()
 
@@ -144,8 +144,8 @@ if sys.argv.__len__() == 2 and sys.argv[1] == "help":
     print("calibrationWithCamera:[0] [ROWS] [COLOMONS]")
     print("calibrationWithImages:[1] [ROWS] [COLOMONS]")
     print("\n函数帮助:")
-    exec "help(calibrationWithCamera)"
-    exec "help(calibrationWithImages)"
+    exec ("help(calibrationWithCamera)")
+    exec ("help(calibrationWithImages)")
 elif sys.argv.__len__() == 4 and sys.argv[1] == "0":
     print("calibrationWithCamera")
     calibrationWithCamera(int(sys.argv[2]), int(sys.argv[3]))

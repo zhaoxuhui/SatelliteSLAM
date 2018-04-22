@@ -22,7 +22,7 @@ def cutVideo(input_path, out_path, left_top_x, left_top_y, right_bottom_x, right
     height = int(cap.get(4))
     total = int(cap.get(7))
 
-    print 'x:', width, 'y:', height
+    print ('x:' + width.__str__() + ' y:' + height.__str__())
 
     fps = 20
     waitTime = 1
@@ -45,7 +45,7 @@ def cutVideo(input_path, out_path, left_top_x, left_top_y, right_bottom_x, right
             out.write(res)
             cv2.imshow("frame", res)
             count += 1
-            print round((count * 1.0 / total) * 100, 2), '%'
+            print (round((count * 1.0 / total) * 100, 2).__str__() + '%')
             k = cv2.waitKey(waitTime) & 0xFF
             if k == 27:
                 break
@@ -59,7 +59,7 @@ if sys.argv.__len__() == 2 and sys.argv[1] == "help":
     print("脚本启动命令格式：")
     print("scriptname.py:[input_path] [out_path] [left_top_x] [left_top_y] [right_bottom_x] [right_bottom_y]")
     print("\n函数帮助:")
-    exec "help(cutVideo)"
+    exec ("help(cutVideo)")
 elif sys.argv.__len__() == 7:
     input_path = sys.argv[1]
     out_path = sys.argv[2]

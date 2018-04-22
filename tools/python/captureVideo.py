@@ -45,7 +45,7 @@ if sys.argv.__len__() == 2:
         print("脚本启动命令格式：")
         print("scriptname.py:[root_dir]")
         print("\n函数帮助:")
-        exec "help(captureVideo)"
+        exec ("help(captureVideo)")
     else:
         captureVideo(sys.argv[1])
 else:

@@ -25,7 +25,7 @@ def splitVideo(video_path, out_path, interval, start, end):
     frames = int(cap.get(7))
     fps = int(cap.get(5))
 
-    print frames, 'frames in total.'
+    print (frames.__str__() + ' frames in total.')
 
     # 计算需要输出的帧数
     startIndex = int(start * fps)
@@ -36,13 +36,13 @@ def splitVideo(video_path, out_path, interval, start, end):
 
     # 判断如果小于0，返回
     if rangeFrames < 0:
-        print 'Error.'
+        print ('Error.')
         exit()
 
     # 输出提示信息
-    print rangeFrames / interval, 'frames are going to be outputted.'
+    print ((rangeFrames / interval).__str__() + ' frames are going to be outputted.')
 
-    print '---Cutting---'
+    print ('---Cutting---')
 
     cap.set(cv2.CAP_PROP_POS_FRAMES, startIndex)
 
@@ -55,7 +55,7 @@ def splitVideo(video_path, out_path, interval, start, end):
         else:
             # 输出影像文件
             cv2.imwrite(out_path + separator + "%04d" % (startIndex + i + 1) + ".jpg", frame)
-            print 'Cutting...', round(((i - startIndex) * 1.0 / (rangeFrames)) * 100, 2), "% finished."
+            print ('Cutting...' + round(((i - startIndex) * 1.0 / (rangeFrames)) * 100, 2).__str__() + "% finished.")
     # 释放对象
     cap.release()
 
@@ -65,7 +65,7 @@ if sys.argv.__len__() == 2 and sys.argv[1] == "help":
     print("脚本启动命令格式：")
     print("scriptname.py:[video_path] [out_path] [interval] [start] [end]")
     print("\n函数帮助:")
-    exec "help(splitVideo)"
+    exec ("help(splitVideo)")
 elif sys.argv.__len__() == 6:
     splitVideo(sys.argv[1], sys.argv[2], int(sys.argv[3]), float(sys.argv[4]), float(sys.argv[5]))
 else:

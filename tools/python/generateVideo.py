@@ -18,7 +18,7 @@ def generateVideo(rootdir, output, type, scale, fps):
 
     separator = os.path.sep
 
-    print "Processing...\n"
+    print ("Processing...\n")
 
     # list，用于存放遍历得到的用户指定类型的影像文件
     paths = []
@@ -36,7 +36,7 @@ def generateVideo(rootdir, output, type, scale, fps):
     if paths.__len__() is not 0:
         for path in paths:
             print path
-    print paths.__len__(), "frames were found."
+    print (paths.__len__().__str__() + " frames were found.")
 
     # 读取第一张影像，获取其大小，然后计算输出视频的大小
     tem = cv2.imread(paths[0])
@@ -56,20 +56,20 @@ def generateVideo(rootdir, output, type, scale, fps):
         frame = cv2.resize(frame, (width, height), interpolation=cv2.INTER_AREA)
         out.write(frame)
         count += 1
-        print items + "  " + ((count * 1.0 / paths.__len__()) * 100).__str__() + " %"
+        print (items + "  " + ((count * 1.0 / paths.__len__()) * 100).__str__() + " %")
 
     # 释放VideoWriter对象
     out.release()
 
-    print "--------------------------------"
-    print "Output Video Information:"
-    print "Output path:" + output
-    print "Width:" + width.__str__()
-    print "Height:" + height.__str__()
-    print "FPS:" + fps.__str__()
-    print "Frames:" + paths.__len__().__str__()
-    print "Time:" + (paths.__len__() * 1.0 / fps * 1.0).__str__() + " s"
-    print "--------------------------------"
+    print ("--------------------------------")
+    print ("Output Video Information:")
+    print ("Output path:" + output)
+    print ("Width:" + width.__str__())
+    print ("Height:" + height.__str__())
+    print ("FPS:" + fps.__str__())
+    print ("Frames:" + paths.__len__().__str__())
+    print ("Time:" + (paths.__len__() * 1.0 / fps * 1.0).__str__() + " s")
+    print ("--------------------------------")
 
 
 if sys.argv.__len__() == 2 and sys.argv[1] == "help":
@@ -77,7 +77,7 @@ if sys.argv.__len__() == 2 and sys.argv[1] == "help":
     print("脚本启动命令格式：")
     print("scriptname.py:[rootdir] [output] [type] [scale] [fps]")
     print("\n函数帮助:")
-    exec "help(generateVideo)"
+    exec ("help(generateVideo)")
 elif sys.argv.__len__() == 6:
     generateVideo(sys.argv[1], sys.argv[2], int(sys.argv[3]), float(sys.argv[4]), int(sys.argv[5]))
 else:

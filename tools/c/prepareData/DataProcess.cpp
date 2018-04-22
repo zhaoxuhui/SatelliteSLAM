@@ -85,6 +85,6 @@ void createVocabulary(const string &img_dir, const string &out_path) {
     DBoW3::Vocabulary vocab;
     vocab.create(descriptors);
     cout << "vocabulary info: " << vocab << endl;
-    vocab.save(out_path + "vocabulary.txt.gz");
+    vocab.save(out_path + "vocabulary.yml.gz");
     cout << "done" << endl;
 }

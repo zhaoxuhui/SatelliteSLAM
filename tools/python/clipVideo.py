@@ -26,7 +26,7 @@ def clipVideo(video_path, out_path, start, end):
     width = int(cap.get(3))
     height = int(cap.get(4))
 
-    print frames, 'frames in total.'
+    print (frames.__str__() + ' frames in total.')
 
     # 计算需要输出的帧数
     startIndex = int(start * fps)
@@ -37,13 +37,13 @@ def clipVideo(video_path, out_path, start, end):
 
     # 判断如果小于0，返回
     if rangeFrames < 0:
-        print 'Error.'
+        print ('Error.')
         exit()
 
     # 输出提示信息
-    print rangeFrames, 'frames are going to be outputted.'
+    print (rangeFrames.__str__() + ' frames are going to be outputted.')
 
-    print '---Cutting---'
+    print ('---Cutting---')
 
     fourcc = cv2.VideoWriter_fourcc(*'XVID')
     out = cv2.VideoWriter(out_path, fourcc, fps, (width, height))
@@ -58,7 +58,7 @@ def clipVideo(video_path, out_path, start, end):
             break
         else:
             out.write(frame)
-            print 'Cutting...', round(((i - startIndex) * 1.0 / (rangeFrames)) * 100, 2), "% finished."
+            print ('Cutting...' + round(((i - startIndex) * 1.0 / (rangeFrames)) * 100, 2).__str__() + "% finished.")
     # 释放对象
     cap.release()
     out.release()
@@ -69,7 +69,7 @@ if sys.argv.__len__() == 2 and sys.argv[1] == "help":
     print("脚本启动命令格式：")
     print("scriptname.py:[video_path] [out_path] [start] [end]")
     print("\n函数帮助:")
-    exec "help(clipVideo)"
+    exec ("help(clipVideo)")
 elif sys.argv.__len__() == 5:
     clipVideo(sys.argv[1], sys.argv[2], float(sys.argv[3]), float(sys.argv[4]))
 else:
