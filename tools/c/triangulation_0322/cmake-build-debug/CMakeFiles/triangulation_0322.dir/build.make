@@ -43,10 +43,10 @@ RM = /root/下载/clion-2018.1/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/projects/triangulation_0322
+CMAKE_SOURCE_DIR = /root/SatelliteSLAM/tools/c/triangulation_0322
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/projects/triangulation_0322/cmake-build-debug
+CMAKE_BINARY_DIR = /root/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/triangulation_0322.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/triangulation_0322.dir/flags.make
 
 CMakeFiles/triangulation_0322.dir/common.cpp.o: CMakeFiles/triangulation_0322.dir/flags.make
 CMakeFiles/triangulation_0322.dir/common.cpp.o: ../common.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/projects/triangulation_0322/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/triangulation_0322.dir/common.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/triangulation_0322.dir/common.cpp.o -c /root/projects/triangulation_0322/common.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/triangulation_0322.dir/common.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/triangulation_0322.dir/common.cpp.o -c /root/SatelliteSLAM/tools/c/triangulation_0322/common.cpp
 
 CMakeFiles/triangulation_0322.dir/common.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/triangulation_0322.dir/common.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/projects/triangulation_0322/common.cpp > CMakeFiles/triangulation_0322.dir/common.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/SatelliteSLAM/tools/c/triangulation_0322/common.cpp > CMakeFiles/triangulation_0322.dir/common.cpp.i
 
 CMakeFiles/triangulation_0322.dir/common.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/triangulation_0322.dir/common.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/projects/triangulation_0322/common.cpp -o CMakeFiles/triangulation_0322.dir/common.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/SatelliteSLAM/tools/c/triangulation_0322/common.cpp -o CMakeFiles/triangulation_0322.dir/common.cpp.s
 
 CMakeFiles/triangulation_0322.dir/common.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/triangulation_0322.dir/common.cpp.o.provides.build: CMakeFiles/triang
 
 CMakeFiles/triangulation_0322.dir/MatrixCalculation.cpp.o: CMakeFiles/triangulation_0322.dir/flags.make
 CMakeFiles/triangulation_0322.dir/MatrixCalculation.cpp.o: ../MatrixCalculation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/projects/triangulation_0322/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/triangulation_0322.dir/MatrixCalculation.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/triangulation_0322.dir/MatrixCalculation.cpp.o -c /root/projects/triangulation_0322/MatrixCalculation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/triangulation_0322.dir/MatrixCalculation.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/triangulation_0322.dir/MatrixCalculation.cpp.o -c /root/SatelliteSLAM/tools/c/triangulation_0322/MatrixCalculation.cpp
 
 CMakeFiles/triangulation_0322.dir/MatrixCalculation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/triangulation_0322.dir/MatrixCalculation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/projects/triangulation_0322/MatrixCalculation.cpp > CMakeFiles/triangulation_0322.dir/MatrixCalculation.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/SatelliteSLAM/tools/c/triangulation_0322/MatrixCalculation.cpp > CMakeFiles/triangulation_0322.dir/MatrixCalculation.cpp.i
 
 CMakeFiles/triangulation_0322.dir/MatrixCalculation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/triangulation_0322.dir/MatrixCalculation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/projects/triangulation_0322/MatrixCalculation.cpp -o CMakeFiles/triangulation_0322.dir/MatrixCalculation.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/SatelliteSLAM/tools/c/triangulation_0322/MatrixCalculation.cpp -o CMakeFiles/triangulation_0322.dir/MatrixCalculation.cpp.s
 
 CMakeFiles/triangulation_0322.dir/MatrixCalculation.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/triangulation_0322.dir/MatrixCalculation.cpp.o.provides.build: CMakeF
 
 CMakeFiles/triangulation_0322.dir/ORBMatching.cpp.o: CMakeFiles/triangulation_0322.dir/flags.make
 CMakeFiles/triangulation_0322.dir/ORBMatching.cpp.o: ../ORBMatching.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/projects/triangulation_0322/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/triangulation_0322.dir/ORBMatching.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/triangulation_0322.dir/ORBMatching.cpp.o -c /root/projects/triangulation_0322/ORBMatching.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/triangulation_0322.dir/ORBMatching.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/triangulation_0322.dir/ORBMatching.cpp.o -c /root/SatelliteSLAM/tools/c/triangulation_0322/ORBMatching.cpp
 
 CMakeFiles/triangulation_0322.dir/ORBMatching.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/triangulation_0322.dir/ORBMatching.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/projects/triangulation_0322/ORBMatching.cpp > CMakeFiles/triangulation_0322.dir/ORBMatching.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/SatelliteSLAM/tools/c/triangulation_0322/ORBMatching.cpp > CMakeFiles/triangulation_0322.dir/ORBMatching.cpp.i
 
 CMakeFiles/triangulation_0322.dir/ORBMatching.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/triangulation_0322.dir/ORBMatching.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/projects/triangulation_0322/ORBMatching.cpp -o CMakeFiles/triangulation_0322.dir/ORBMatching.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/SatelliteSLAM/tools/c/triangulation_0322/ORBMatching.cpp -o CMakeFiles/triangulation_0322.dir/ORBMatching.cpp.s
 
 CMakeFiles/triangulation_0322.dir/ORBMatching.cpp.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/triangulation_0322.dir/ORBMatching.cpp.o.provides.build: CMakeFiles/t
 
 CMakeFiles/triangulation_0322.dir/main.cpp.o: CMakeFiles/triangulation_0322.dir/flags.make
 CMakeFiles/triangulation_0322.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/projects/triangulation_0322/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/triangulation_0322.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/triangulation_0322.dir/main.cpp.o -c /root/projects/triangulation_0322/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/triangulation_0322.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/triangulation_0322.dir/main.cpp.o -c /root/SatelliteSLAM/tools/c/triangulation_0322/main.cpp
 
 CMakeFiles/triangulation_0322.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/triangulation_0322.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/projects/triangulation_0322/main.cpp > CMakeFiles/triangulation_0322.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/SatelliteSLAM/tools/c/triangulation_0322/main.cpp > CMakeFiles/triangulation_0322.dir/main.cpp.i
 
 CMakeFiles/triangulation_0322.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/triangulation_0322.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/projects/triangulation_0322/main.cpp -o CMakeFiles/triangulation_0322.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/SatelliteSLAM/tools/c/triangulation_0322/main.cpp -o CMakeFiles/triangulation_0322.dir/main.cpp.s
 
 CMakeFiles/triangulation_0322.dir/main.cpp.o.requires:
 
@@ -186,7 +186,7 @@ triangulation_0322: /usr/local/lib/libopencv_imgcodecs.so.3.2.0
 triangulation_0322: /usr/local/lib/libopencv_imgproc.so.3.2.0
 triangulation_0322: /usr/local/lib/libopencv_core.so.3.2.0
 triangulation_0322: CMakeFiles/triangulation_0322.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/projects/triangulation_0322/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable triangulation_0322"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable triangulation_0322"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/triangulation_0322.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -206,6 +206,6 @@ CMakeFiles/triangulation_0322.dir/clean:
 .PHONY : CMakeFiles/triangulation_0322.dir/clean
 
 CMakeFiles/triangulation_0322.dir/depend:
-	cd /root/projects/triangulation_0322/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/projects/triangulation_0322 /root/projects/triangulation_0322 /root/projects/triangulation_0322/cmake-build-debug /root/projects/triangulation_0322/cmake-build-debug /root/projects/triangulation_0322/cmake-build-debug/CMakeFiles/triangulation_0322.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/SatelliteSLAM/tools/c/triangulation_0322 /root/SatelliteSLAM/tools/c/triangulation_0322 /root/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug /root/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug /root/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/triangulation_0322.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/triangulation_0322.dir/depend
 

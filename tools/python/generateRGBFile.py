@@ -40,8 +40,10 @@ def generateRGBfile(names, out_dir, folder):
     f.write("file: 'rgb_dataset_images'\n")
     f.write("timestamp filename\n")
 
+
+
     for i in range(names.__len__()):
-        f.write(i.__str__() + " " + folder + separator + names[i] + "\n")
+        f.write('%.3f'%(i*0.04) + " " + folder + separator + names[i] + "\n")
     f.close()
 
 

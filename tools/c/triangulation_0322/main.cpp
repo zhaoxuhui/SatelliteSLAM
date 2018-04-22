@@ -25,12 +25,19 @@ int main(int argc, char **argv) {
 //     string input_dir = "/root/satellite_slam_data/tum3";
 //     string output_dir = "/root/out/tum3/";
     
+//    //欧比特卫星内参
+//    double dx = 1535.89;
+//    double dy = 2046.97;
+//    double f = 1536.2;
+//    string input_dir = "/root/data/satellite/Airport/jpg";
+//    string output_dir = "/root/out/Airport/";
+
     //欧比特卫星内参
     double dx = 1535.89;
     double dy = 2046.97;
     double f = 1536.2;
-    string input_dir = "/root/data/satellite/Airport/jpg";
-    string output_dir = "/root/out/Airport/";
+    string input_dir = "/root/data/satellite/fan";
+    string output_dir = "/root/out/fan/";
     
     
     vector<string> files = findFiles(input_dir);

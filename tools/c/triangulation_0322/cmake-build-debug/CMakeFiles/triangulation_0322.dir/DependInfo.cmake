@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/root/projects/triangulation_0322/MatrixCalculation.cpp" "/root/projects/triangulation_0322/cmake-build-debug/CMakeFiles/triangulation_0322.dir/MatrixCalculation.cpp.o"
-  "/root/projects/triangulation_0322/ORBMatching.cpp" "/root/projects/triangulation_0322/cmake-build-debug/CMakeFiles/triangulation_0322.dir/ORBMatching.cpp.o"
-  "/root/projects/triangulation_0322/common.cpp" "/root/projects/triangulation_0322/cmake-build-debug/CMakeFiles/triangulation_0322.dir/common.cpp.o"
-  "/root/projects/triangulation_0322/main.cpp" "/root/projects/triangulation_0322/cmake-build-debug/CMakeFiles/triangulation_0322.dir/main.cpp.o"
+  "/root/SatelliteSLAM/tools/c/triangulation_0322/MatrixCalculation.cpp" "/root/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/triangulation_0322.dir/MatrixCalculation.cpp.o"
+  "/root/SatelliteSLAM/tools/c/triangulation_0322/ORBMatching.cpp" "/root/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/triangulation_0322.dir/ORBMatching.cpp.o"
+  "/root/SatelliteSLAM/tools/c/triangulation_0322/common.cpp" "/root/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/triangulation_0322.dir/common.cpp.o"
+  "/root/SatelliteSLAM/tools/c/triangulation_0322/main.cpp" "/root/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/triangulation_0322.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

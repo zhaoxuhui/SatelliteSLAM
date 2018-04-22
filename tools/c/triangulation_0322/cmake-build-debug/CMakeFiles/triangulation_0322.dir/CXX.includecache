@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/root/projects/triangulation_0322/MatrixCalculation.cpp
+/root/SatelliteSLAM/tools/c/triangulation_0322/MatrixCalculation.cpp
 iostream
 -
 opencv2/core/core.hpp
@@ -24,13 +24,13 @@ dirent.h
 string
 -
 ORBMatching.h
-/root/projects/triangulation_0322/ORBMatching.h
+/root/SatelliteSLAM/tools/c/triangulation_0322/ORBMatching.h
 common.h
-/root/projects/triangulation_0322/common.h
+/root/SatelliteSLAM/tools/c/triangulation_0322/common.h
 math.h
 -
 
-/root/projects/triangulation_0322/MatrixCalculation.h
+/root/SatelliteSLAM/tools/c/triangulation_0322/MatrixCalculation.h
 iostream
 -
 opencv2/core/core.hpp
@@ -48,11 +48,11 @@ dirent.h
 string
 -
 ORBMatching.h
-/root/projects/triangulation_0322/ORBMatching.h
+/root/SatelliteSLAM/tools/c/triangulation_0322/ORBMatching.h
 common.h
-/root/projects/triangulation_0322/common.h
+/root/SatelliteSLAM/tools/c/triangulation_0322/common.h
 
-/root/projects/triangulation_0322/ORBMatching.cpp
+/root/SatelliteSLAM/tools/c/triangulation_0322/ORBMatching.cpp
 iostream
 -
 opencv2/core/core.hpp
@@ -70,9 +70,9 @@ dirent.h
 string
 -
 ORBMatching.h
-/root/projects/triangulation_0322/ORBMatching.h
+/root/SatelliteSLAM/tools/c/triangulation_0322/ORBMatching.h
 
-/root/projects/triangulation_0322/ORBMatching.h
+/root/SatelliteSLAM/tools/c/triangulation_0322/ORBMatching.h
 iostream
 -
 opencv2/core/core.hpp
@@ -90,7 +90,7 @@ dirent.h
 string
 -
 
-/root/projects/triangulation_0322/common.cpp
+/root/SatelliteSLAM/tools/c/triangulation_0322/common.cpp
 iostream
 -
 opencv2/core/core.hpp
@@ -108,13 +108,13 @@ dirent.h
 string
 -
 MatrixCalculation.h
-/root/projects/triangulation_0322/MatrixCalculation.h
+/root/SatelliteSLAM/tools/c/triangulation_0322/MatrixCalculation.h
 fstream
 -
 math.h
 -
 
-/root/projects/triangulation_0322/common.h
+/root/SatelliteSLAM/tools/c/triangulation_0322/common.h
 iostream
 -
 opencv2/core/core.hpp
@@ -132,7 +132,7 @@ dirent.h
 string
 -
 
-/root/projects/triangulation_0322/main.cpp
+/root/SatelliteSLAM/tools/c/triangulation_0322/main.cpp
 iostream
 -
 opencv2/core/core.hpp
@@ -150,11 +150,11 @@ dirent.h
 string
 -
 ORBMatching.h
-/root/projects/triangulation_0322/ORBMatching.h
+/root/SatelliteSLAM/tools/c/triangulation_0322/ORBMatching.h
 MatrixCalculation.h
-/root/projects/triangulation_0322/MatrixCalculation.h
+/root/SatelliteSLAM/tools/c/triangulation_0322/MatrixCalculation.h
 common.h
-/root/projects/triangulation_0322/common.h
+/root/SatelliteSLAM/tools/c/triangulation_0322/common.h
 
 /usr/local/include/opencv/cxcore.h
 opencv2/core/core_c.h
