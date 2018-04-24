@@ -24,7 +24,7 @@ int main(int argc, char **argv) {
 //     double f = 520.9;
 //     string input_dir = "/root/satellite_slam_data/tum3";
 //     string output_dir = "/root/out/tum3/";
-    
+
 //    //欧比特卫星内参
 //    double dx = 1535.89;
 //    double dy = 2046.97;
@@ -36,10 +36,10 @@ int main(int argc, char **argv) {
     double dx = 1535.89;
     double dy = 2046.97;
     double f = 1536.2;
-    string input_dir = "/root/data/satellite/fan";
-    string output_dir = "/root/out/fan/";
-    
-    
+    string input_dir = "/root/test";
+    string output_dir = "/root";
+
+
     vector<string> files = findFiles(input_dir);
   for(int i=0;i<files.size()-1;i++)
   {
@@ -51,6 +51,6 @@ int main(int argc, char **argv) {
     orb_match(files[i],files[i+1],
 	      output_dir+"/res_"+getIndex(files[i])+"_"+getIndex(files[i+1])+".jpg");
   }
-    
+
     return 0;
 }

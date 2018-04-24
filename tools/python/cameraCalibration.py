@@ -56,7 +56,7 @@ def calibrationWithCamera(ROWS, COLOMONS):
                     imgpoints.append(corners2)
                     cv2.imwrite(counter.__str__() + ".jpg", gray)
                     counter += 1
-                    print("1 image added,total " + counter.__str__(), " images.")
+                    print("1 image added,total " + counter.__str__() + " images.")
                 elif k == ord('c'):
                     if imgpoints.__len__() >= 10:
                         print("Calculating parameters...")

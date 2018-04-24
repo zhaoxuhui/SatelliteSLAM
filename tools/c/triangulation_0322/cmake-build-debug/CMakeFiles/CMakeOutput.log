@@ -1,4 +1,4 @@
-The system is: Linux - 4.13.0-38-generic - x86_64
+The system is: Linux - 4.13.0-36-generic - x86_64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
 Compiler: /usr/bin/cc 
 Build flags: 
@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/root/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/3.10.2/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/media/root/Zhao Xuhui/code/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/3.10.3/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++ 
@@ -23,33 +23,33 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/root/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/3.10.2/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/media/root/Zhao Xuhui/code/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/3.10.3/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /root/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /media/root/Zhao Xuhui/code/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_1f608/fast"
-/usr/bin/make -f CMakeFiles/cmTC_1f608.dir/build.make CMakeFiles/cmTC_1f608.dir/build
-make[1]: Entering directory '/root/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_1f608.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_1f608.dir/testCCompiler.c.o   -c /root/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_1f608
-/root/下载/clion-2018.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1f608.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_1f608.dir/testCCompiler.c.o  -o cmTC_1f608 
-make[1]: Leaving directory '/root/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_af8ba/fast"
+/usr/bin/make -f CMakeFiles/cmTC_af8ba.dir/build.make CMakeFiles/cmTC_af8ba.dir/build
+make[1]: Entering directory '/media/root/Zhao Xuhui/code/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_af8ba.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_af8ba.dir/testCCompiler.c.o   -c "/media/root/Zhao Xuhui/code/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c"
+Linking C executable cmTC_af8ba
+/root/programs/clion-2018.1.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_af8ba.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_af8ba.dir/testCCompiler.c.o  -o cmTC_af8ba 
+make[1]: Leaving directory '/media/root/Zhao Xuhui/code/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /root/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /media/root/Zhao Xuhui/code/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_08445/fast"
-/usr/bin/make -f CMakeFiles/cmTC_08445.dir/build.make CMakeFiles/cmTC_08445.dir/build
-make[1]: Entering directory '/root/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_08445.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_08445.dir/CMakeCCompilerABI.c.o   -c /root/下载/clion-2018.1/bin/cmake/share/cmake-3.10/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_08445
-/root/下载/clion-2018.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_08445.dir/link.txt --verbose=1
-/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_08445.dir/CMakeCCompilerABI.c.o  -o cmTC_08445 
+Run Build Command:"/usr/bin/make" "cmTC_2f2de/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2f2de.dir/build.make CMakeFiles/cmTC_2f2de.dir/build
+make[1]: Entering directory '/media/root/Zhao Xuhui/code/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2f2de.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_2f2de.dir/CMakeCCompilerABI.c.o   -c /root/programs/clion-2018.1.1/bin/cmake/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_2f2de
+/root/programs/clion-2018.1.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2f2de.dir/link.txt --verbose=1
+/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_2f2de.dir/CMakeCCompilerABI.c.o  -o cmTC_2f2de 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
@@ -59,23 +59,23 @@ Thread model: posix
 gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.9) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_08445' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cc6eoauw.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_08445 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_08445.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
-make[1]: Leaving directory '/root/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_2f2de' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccuBUXoj.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_2f2de /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_2f2de.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/media/root/Zhao Xuhui/code/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /root/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /media/root/Zhao Xuhui/code/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_08445/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_08445.dir/build.make CMakeFiles/cmTC_08445.dir/build]
-  ignore line: [make[1]: Entering directory '/root/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_08445.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_08445.dir/CMakeCCompilerABI.c.o   -c /root/下载/clion-2018.1/bin/cmake/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_08445]
-  ignore line: [/root/下载/clion-2018.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_08445.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_08445.dir/CMakeCCompilerABI.c.o  -o cmTC_08445 ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_2f2de/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_2f2de.dir/build.make CMakeFiles/cmTC_2f2de.dir/build]
+  ignore line: [make[1]: Entering directory '/media/root/Zhao Xuhui/code/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_2f2de.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_2f2de.dir/CMakeCCompilerABI.c.o   -c /root/programs/clion-2018.1.1/bin/cmake/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_2f2de]
+  ignore line: [/root/programs/clion-2018.1.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2f2de.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_2f2de.dir/CMakeCCompilerABI.c.o  -o cmTC_2f2de ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
@@ -85,13 +85,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.9) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_08445' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cc6eoauw.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_08445 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_08445.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_2f2de' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccuBUXoj.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_2f2de /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_2f2de.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cc6eoauw.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccuBUXoj.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -109,7 +109,7 @@ Parsed C implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_08445] ==> ignore
+    arg [cmTC_2f2de] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
@@ -121,7 +121,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
-    arg [CMakeFiles/cmTC_08445.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_2f2de.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -149,17 +149,17 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /root/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /media/root/Zhao Xuhui/code/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_8fa32/fast"
-/usr/bin/make -f CMakeFiles/cmTC_8fa32.dir/build.make CMakeFiles/cmTC_8fa32.dir/build
-make[1]: Entering directory '/root/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_8fa32.dir/feature_tests.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_8fa32.dir/feature_tests.c.o   -c /root/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_8fa32
-/root/下载/clion-2018.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8fa32.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_8fa32.dir/feature_tests.c.o  -o cmTC_8fa32 
-make[1]: Leaving directory '/root/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_53d32/fast"
+/usr/bin/make -f CMakeFiles/cmTC_53d32.dir/build.make CMakeFiles/cmTC_53d32.dir/build
+make[1]: Entering directory '/media/root/Zhao Xuhui/code/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_53d32.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_53d32.dir/feature_tests.c.o   -c "/media/root/Zhao Xuhui/code/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/feature_tests.c"
+Linking C executable cmTC_53d32
+/root/programs/clion-2018.1.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_53d32.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_53d32.dir/feature_tests.c.o  -o cmTC_53d32 
+make[1]: Leaving directory '/media/root/Zhao Xuhui/code/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -169,17 +169,17 @@ make[1]: Leaving directory '/root/SatelliteSLAM/tools/c/triangulation_0322/cmake
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /root/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /media/root/Zhao Xuhui/code/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_7ace7/fast"
-/usr/bin/make -f CMakeFiles/cmTC_7ace7.dir/build.make CMakeFiles/cmTC_7ace7.dir/build
-make[1]: Entering directory '/root/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_7ace7.dir/feature_tests.c.o
-/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_7ace7.dir/feature_tests.c.o   -c /root/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_7ace7
-/root/下载/clion-2018.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7ace7.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_7ace7.dir/feature_tests.c.o  -o cmTC_7ace7 
-make[1]: Leaving directory '/root/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_b9540/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b9540.dir/build.make CMakeFiles/cmTC_b9540.dir/build
+make[1]: Entering directory '/media/root/Zhao Xuhui/code/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b9540.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_b9540.dir/feature_tests.c.o   -c "/media/root/Zhao Xuhui/code/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/feature_tests.c"
+Linking C executable cmTC_b9540
+/root/programs/clion-2018.1.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b9540.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_b9540.dir/feature_tests.c.o  -o cmTC_b9540 
+make[1]: Leaving directory '/media/root/Zhao Xuhui/code/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -189,17 +189,17 @@ make[1]: Leaving directory '/root/SatelliteSLAM/tools/c/triangulation_0322/cmake
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /root/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /media/root/Zhao Xuhui/code/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_4add0/fast"
-/usr/bin/make -f CMakeFiles/cmTC_4add0.dir/build.make CMakeFiles/cmTC_4add0.dir/build
-make[1]: Entering directory '/root/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_4add0.dir/feature_tests.c.o
-/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_4add0.dir/feature_tests.c.o   -c /root/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_4add0
-/root/下载/clion-2018.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4add0.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_4add0.dir/feature_tests.c.o  -o cmTC_4add0 
-make[1]: Leaving directory '/root/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_29341/fast"
+/usr/bin/make -f CMakeFiles/cmTC_29341.dir/build.make CMakeFiles/cmTC_29341.dir/build
+make[1]: Entering directory '/media/root/Zhao Xuhui/code/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_29341.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_29341.dir/feature_tests.c.o   -c "/media/root/Zhao Xuhui/code/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/feature_tests.c"
+Linking C executable cmTC_29341
+/root/programs/clion-2018.1.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_29341.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_29341.dir/feature_tests.c.o  -o cmTC_29341 
+make[1]: Leaving directory '/media/root/Zhao Xuhui/code/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -207,30 +207,30 @@ make[1]: Leaving directory '/root/SatelliteSLAM/tools/c/triangulation_0322/cmake
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /root/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /media/root/Zhao Xuhui/code/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d0dd7/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d0dd7.dir/build.make CMakeFiles/cmTC_d0dd7.dir/build
-make[1]: Entering directory '/root/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_d0dd7.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTC_d0dd7.dir/testCXXCompiler.cxx.o -c /root/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_d0dd7
-/root/下载/clion-2018.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d0dd7.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_d0dd7.dir/testCXXCompiler.cxx.o  -o cmTC_d0dd7 
-make[1]: Leaving directory '/root/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_ddf88/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ddf88.dir/build.make CMakeFiles/cmTC_ddf88.dir/build
+make[1]: Entering directory '/media/root/Zhao Xuhui/code/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ddf88.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_ddf88.dir/testCXXCompiler.cxx.o -c "/media/root/Zhao Xuhui/code/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx"
+Linking CXX executable cmTC_ddf88
+/root/programs/clion-2018.1.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ddf88.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_ddf88.dir/testCXXCompiler.cxx.o  -o cmTC_ddf88 
+make[1]: Leaving directory '/media/root/Zhao Xuhui/code/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /root/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /media/root/Zhao Xuhui/code/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_f8f29/fast"
-/usr/bin/make -f CMakeFiles/cmTC_f8f29.dir/build.make CMakeFiles/cmTC_f8f29.dir/build
-make[1]: Entering directory '/root/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_f8f29.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++     -o CMakeFiles/cmTC_f8f29.dir/CMakeCXXCompilerABI.cpp.o -c /root/下载/clion-2018.1/bin/cmake/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_f8f29
-/root/下载/clion-2018.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f8f29.dir/link.txt --verbose=1
-/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_f8f29.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_f8f29 
+Run Build Command:"/usr/bin/make" "cmTC_99286/fast"
+/usr/bin/make -f CMakeFiles/cmTC_99286.dir/build.make CMakeFiles/cmTC_99286.dir/build
+make[1]: Entering directory '/media/root/Zhao Xuhui/code/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_99286.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTC_99286.dir/CMakeCXXCompilerABI.cpp.o -c /root/programs/clion-2018.1.1/bin/cmake/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_99286
+/root/programs/clion-2018.1.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_99286.dir/link.txt --verbose=1
+/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_99286.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_99286 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
@@ -240,23 +240,23 @@ Thread model: posix
 gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.9) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_f8f29' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cc7xP5Dc.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_f8f29 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_f8f29.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
-make[1]: Leaving directory '/root/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_99286' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cchQcTeg.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_99286 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_99286.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/media/root/Zhao Xuhui/code/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /root/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /media/root/Zhao Xuhui/code/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_f8f29/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_f8f29.dir/build.make CMakeFiles/cmTC_f8f29.dir/build]
-  ignore line: [make[1]: Entering directory '/root/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_f8f29.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_f8f29.dir/CMakeCXXCompilerABI.cpp.o -c /root/下载/clion-2018.1/bin/cmake/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_f8f29]
-  ignore line: [/root/下载/clion-2018.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f8f29.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_f8f29.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_f8f29 ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_99286/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_99286.dir/build.make CMakeFiles/cmTC_99286.dir/build]
+  ignore line: [make[1]: Entering directory '/media/root/Zhao Xuhui/code/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_99286.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_99286.dir/CMakeCXXCompilerABI.cpp.o -c /root/programs/clion-2018.1.1/bin/cmake/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_99286]
+  ignore line: [/root/programs/clion-2018.1.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_99286.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_99286.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_99286 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
@@ -266,13 +266,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.9) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_f8f29' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cc7xP5Dc.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_f8f29 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_f8f29.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_99286' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cchQcTeg.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_99286 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_99286.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cc7xP5Dc.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cchQcTeg.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -290,7 +290,7 @@ Parsed CXX implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_f8f29] ==> ignore
+    arg [cmTC_99286] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
@@ -302,7 +302,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
-    arg [CMakeFiles/cmTC_f8f29.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_99286.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -328,17 +328,17 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
-Change Dir: /root/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /media/root/Zhao Xuhui/code/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_cdf18/fast"
-/usr/bin/make -f CMakeFiles/cmTC_cdf18.dir/build.make CMakeFiles/cmTC_cdf18.dir/build
-make[1]: Entering directory '/root/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_cdf18.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_cdf18.dir/feature_tests.cxx.o -c /root/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_cdf18
-/root/下载/clion-2018.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cdf18.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_cdf18.dir/feature_tests.cxx.o  -o cmTC_cdf18 
-make[1]: Leaving directory '/root/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_c4321/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c4321.dir/build.make CMakeFiles/cmTC_c4321.dir/build
+make[1]: Entering directory '/media/root/Zhao Xuhui/code/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c4321.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_c4321.dir/feature_tests.cxx.o -c "/media/root/Zhao Xuhui/code/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/feature_tests.cxx"
+Linking CXX executable cmTC_c4321
+/root/programs/clion-2018.1.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c4321.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_c4321.dir/feature_tests.cxx.o  -o cmTC_c4321 
+make[1]: Leaving directory '/media/root/Zhao Xuhui/code/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -401,17 +401,17 @@ make[1]: Leaving directory '/root/SatelliteSLAM/tools/c/triangulation_0322/cmake
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /root/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /media/root/Zhao Xuhui/code/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b76bd/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b76bd.dir/build.make CMakeFiles/cmTC_b76bd.dir/build
-make[1]: Entering directory '/root/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_b76bd.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_b76bd.dir/feature_tests.cxx.o -c /root/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_b76bd
-/root/下载/clion-2018.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b76bd.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_b76bd.dir/feature_tests.cxx.o  -o cmTC_b76bd 
-make[1]: Leaving directory '/root/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_dee20/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dee20.dir/build.make CMakeFiles/cmTC_dee20.dir/build
+make[1]: Entering directory '/media/root/Zhao Xuhui/code/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_dee20.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_dee20.dir/feature_tests.cxx.o -c "/media/root/Zhao Xuhui/code/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/feature_tests.cxx"
+Linking CXX executable cmTC_dee20
+/root/programs/clion-2018.1.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dee20.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_dee20.dir/feature_tests.cxx.o  -o cmTC_dee20 
+make[1]: Leaving directory '/media/root/Zhao Xuhui/code/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -474,17 +474,17 @@ make[1]: Leaving directory '/root/SatelliteSLAM/tools/c/triangulation_0322/cmake
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /root/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /media/root/Zhao Xuhui/code/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_639d4/fast"
-/usr/bin/make -f CMakeFiles/cmTC_639d4.dir/build.make CMakeFiles/cmTC_639d4.dir/build
-make[1]: Entering directory '/root/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_639d4.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_639d4.dir/feature_tests.cxx.o -c /root/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_639d4
-/root/下载/clion-2018.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_639d4.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_639d4.dir/feature_tests.cxx.o  -o cmTC_639d4 
-make[1]: Leaving directory '/root/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_e5fc8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e5fc8.dir/build.make CMakeFiles/cmTC_e5fc8.dir/build
+make[1]: Entering directory '/media/root/Zhao Xuhui/code/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e5fc8.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_e5fc8.dir/feature_tests.cxx.o -c "/media/root/Zhao Xuhui/code/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/feature_tests.cxx"
+Linking CXX executable cmTC_e5fc8
+/root/programs/clion-2018.1.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e5fc8.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_e5fc8.dir/feature_tests.cxx.o  -o cmTC_e5fc8 
+make[1]: Leaving directory '/media/root/Zhao Xuhui/code/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -547,17 +547,17 @@ make[1]: Leaving directory '/root/SatelliteSLAM/tools/c/triangulation_0322/cmake
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /root/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /media/root/Zhao Xuhui/code/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_2b9aa/fast"
-/usr/bin/make -f CMakeFiles/cmTC_2b9aa.dir/build.make CMakeFiles/cmTC_2b9aa.dir/build
-make[1]: Entering directory '/root/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_2b9aa.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_2b9aa.dir/feature_tests.cxx.o -c /root/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_2b9aa
-/root/下载/clion-2018.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2b9aa.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_2b9aa.dir/feature_tests.cxx.o  -o cmTC_2b9aa 
-make[1]: Leaving directory '/root/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_d4f74/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d4f74.dir/build.make CMakeFiles/cmTC_d4f74.dir/build
+make[1]: Entering directory '/media/root/Zhao Xuhui/code/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d4f74.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_d4f74.dir/feature_tests.cxx.o -c "/media/root/Zhao Xuhui/code/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/feature_tests.cxx"
+Linking CXX executable cmTC_d4f74
+/root/programs/clion-2018.1.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d4f74.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_d4f74.dir/feature_tests.cxx.o  -o cmTC_d4f74 
+make[1]: Leaving directory '/media/root/Zhao Xuhui/code/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
