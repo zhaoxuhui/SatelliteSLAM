@@ -10,7 +10,7 @@ include_directories(${OpenCV_DIRS})
 # dbow3
 # dbow3 is a simple lib so I assume you installed it in default directory
 set( DBoW3_INCLUDE_DIRS "/usr/local/include" )
-set( DBoW3_LIBS "/usr/local/lib/libDBoW3.a" )
+set( DBoW3_LIBS "/usr/local/lib/libDBoW3.so" )
 
 add_executable(prepareData main.cpp tinyxml2.cpp tinyxml2.h BasicFunc.cpp BasicFunc.h DataProcess.cpp DataProcess.h ORBMatching.cpp ORBMatching.h)
 

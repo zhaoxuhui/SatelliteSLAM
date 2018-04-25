@@ -18,27 +18,26 @@ using namespace cv;
 
 int main(int argc, char **argv) {
 
-//     //TUM Freiburg2数据集内参
-//     double dx =325.1;
-//     double dy = 249.7;
-//     double f = 520.9;
-//     string input_dir = "/root/satellite_slam_data/tum3";
-//     string output_dir = "/root/out/tum3/";
+//     //TUM Freiburg1数据集内参
+//     double dx =318.643040;
+//     double dy = 255.313989;
+//     double f = 516.89;
+//     string input_dir = "/media/root/ZhaoXuhui/data/SLAM/TUM/rgbd_dataset_freiburg1_xyz/rgb";
+//     string output_dir = "/media/root/ZhaoXuhui/data/results/TUM1";
 
-//    //欧比特卫星内参
-//    double dx = 1535.89;
-//    double dy = 2046.97;
-//    double f = 1536.2;
-//    string input_dir = "/root/data/satellite/Airport/jpg";
-//    string output_dir = "/root/out/Airport/";
+//    //TUM Freiburg2数据集内参
+//    double dx =325.141442;
+//    double dy = 249.701764;
+//    double f = 520.96;
+//    string input_dir = "/media/root/ZhaoXuhui/data/SLAM/TUM/rgbd_dataset_freiburg2_xyz/rgb";
+//    string output_dir = "/media/root/ZhaoXuhui/data/results/TUM2";
 
     //欧比特卫星内参
     double dx = 1535.89;
     double dy = 2046.97;
     double f = 1536.2;
-    string input_dir = "/root/test";
-    string output_dir = "/root";
-
+    string input_dir = "/media/root/ZhaoXuhui/data/SLAM/satellite/Airport/jpg";
+    string output_dir = "/media/root/ZhaoXuhui/data/results/Airport";
 
     vector<string> files = findFiles(input_dir);
   for(int i=0;i<files.size()-1;i++)

@@ -1,4 +1,4 @@
-/root/programs/clion-2018.1.1/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/media/root/Zhao Xuhui/code/SatelliteSLAM/tools/c/triangulation_0322"
+/root/下载/clion-2018.1/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /media/root/ZhaoXuhui/code/SatelliteSLAM/tools/c/triangulation_0322
 -- The C compiler identification is GNU 5.4.0
 -- The CXX compiler identification is GNU 5.4.0
 -- Check for working C compiler: /usr/bin/cc
@@ -13,7 +13,7 @@
 -- Detecting CXX compiler ABI info - done
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
--- Found OpenCV: /usr/local (found suitable version "3.4.1", minimum required is "3.1") 
+-- Found OpenCV: /usr/local (found suitable version "3.2.0", minimum required is "3.1") 
 -- Configuring done
 -- Generating done
--- Build files have been written to: /media/root/Zhao Xuhui/code/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug
+-- Build files have been written to: /media/root/ZhaoXuhui/code/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug

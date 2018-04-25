@@ -7,11 +7,11 @@ using namespace std;
 
 
 int main() {
-    string dir = "/root/data/satellite/Airport/jpg";
+    string dir = "/media/root/ZhaoXuhui/data/SLAM/satellite/Airport/jpg";
     string base = "/root/data/satellite/tianjin/";
     string xml_path = "/root/data/satellite/tianjin/observation/VBZ1_201801051905_002.time";
     string out_path = "/root/data/satellite/tianjin/rgb.txt";
-    string vocab_path = "/root/data/satellite/Airport";
+    string vocab_path = "/media/root/ZhaoXuhui/data/SLAM/satellite/Airport/";
 
 //    vector<string> data = prepareData(dir, xml_path, OVS_1A);
 //    saveStrVecTUM(data, base, out_path);

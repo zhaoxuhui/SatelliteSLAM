@@ -17,8 +17,6 @@ CMakeFiles/triangulation_0322.dir/MatrixCalculation.cpp.o: /usr/local/include/op
 CMakeFiles/triangulation_0322.dir/MatrixCalculation.cpp.o: /usr/local/include/opencv2/core/cuda.hpp
 CMakeFiles/triangulation_0322.dir/MatrixCalculation.cpp.o: /usr/local/include/opencv2/core/cuda.inl.hpp
 CMakeFiles/triangulation_0322.dir/MatrixCalculation.cpp.o: /usr/local/include/opencv2/core/cuda_types.hpp
-CMakeFiles/triangulation_0322.dir/MatrixCalculation.cpp.o: /usr/local/include/opencv2/core/cv_cpu_dispatch.h
-CMakeFiles/triangulation_0322.dir/MatrixCalculation.cpp.o: /usr/local/include/opencv2/core/cv_cpu_helper.h
 CMakeFiles/triangulation_0322.dir/MatrixCalculation.cpp.o: /usr/local/include/opencv2/core/cvdef.h
 CMakeFiles/triangulation_0322.dir/MatrixCalculation.cpp.o: /usr/local/include/opencv2/core/cvstd.hpp
 CMakeFiles/triangulation_0322.dir/MatrixCalculation.cpp.o: /usr/local/include/opencv2/core/cvstd.inl.hpp
@@ -39,12 +37,6 @@ CMakeFiles/triangulation_0322.dir/MatrixCalculation.cpp.o: /usr/local/include/op
 CMakeFiles/triangulation_0322.dir/MatrixCalculation.cpp.o: /usr/local/include/opencv2/core/types_c.h
 CMakeFiles/triangulation_0322.dir/MatrixCalculation.cpp.o: /usr/local/include/opencv2/core/utility.hpp
 CMakeFiles/triangulation_0322.dir/MatrixCalculation.cpp.o: /usr/local/include/opencv2/core/version.hpp
-CMakeFiles/triangulation_0322.dir/MatrixCalculation.cpp.o: /usr/local/include/opencv2/core/vsx_utils.hpp
-CMakeFiles/triangulation_0322.dir/MatrixCalculation.cpp.o: /usr/local/include/opencv2/dnn.hpp
-CMakeFiles/triangulation_0322.dir/MatrixCalculation.cpp.o: /usr/local/include/opencv2/dnn/dict.hpp
-CMakeFiles/triangulation_0322.dir/MatrixCalculation.cpp.o: /usr/local/include/opencv2/dnn/dnn.hpp
-CMakeFiles/triangulation_0322.dir/MatrixCalculation.cpp.o: /usr/local/include/opencv2/dnn/dnn.inl.hpp
-CMakeFiles/triangulation_0322.dir/MatrixCalculation.cpp.o: /usr/local/include/opencv2/dnn/layer.hpp
 CMakeFiles/triangulation_0322.dir/MatrixCalculation.cpp.o: /usr/local/include/opencv2/features2d.hpp
 CMakeFiles/triangulation_0322.dir/MatrixCalculation.cpp.o: /usr/local/include/opencv2/features2d/features2d.hpp
 CMakeFiles/triangulation_0322.dir/MatrixCalculation.cpp.o: /usr/local/include/opencv2/flann.hpp
@@ -88,7 +80,6 @@ CMakeFiles/triangulation_0322.dir/MatrixCalculation.cpp.o: /usr/local/include/op
 CMakeFiles/triangulation_0322.dir/MatrixCalculation.cpp.o: /usr/local/include/opencv2/imgproc/imgproc_c.h
 CMakeFiles/triangulation_0322.dir/MatrixCalculation.cpp.o: /usr/local/include/opencv2/imgproc/types_c.h
 CMakeFiles/triangulation_0322.dir/MatrixCalculation.cpp.o: /usr/local/include/opencv2/ml.hpp
-CMakeFiles/triangulation_0322.dir/MatrixCalculation.cpp.o: /usr/local/include/opencv2/ml/ml.inl.hpp
 CMakeFiles/triangulation_0322.dir/MatrixCalculation.cpp.o: /usr/local/include/opencv2/objdetect.hpp
 CMakeFiles/triangulation_0322.dir/MatrixCalculation.cpp.o: /usr/local/include/opencv2/objdetect/detection_based_tracker.hpp
 CMakeFiles/triangulation_0322.dir/MatrixCalculation.cpp.o: /usr/local/include/opencv2/objdetect/objdetect_c.h
@@ -136,6 +127,11 @@ CMakeFiles/triangulation_0322.dir/MatrixCalculation.cpp.o: /usr/local/include/op
 CMakeFiles/triangulation_0322.dir/MatrixCalculation.cpp.o: /usr/local/include/opencv2/videostab/ring_buffer.hpp
 CMakeFiles/triangulation_0322.dir/MatrixCalculation.cpp.o: /usr/local/include/opencv2/videostab/stabilizer.hpp
 CMakeFiles/triangulation_0322.dir/MatrixCalculation.cpp.o: /usr/local/include/opencv2/videostab/wobble_suppression.hpp
+CMakeFiles/triangulation_0322.dir/MatrixCalculation.cpp.o: /usr/local/include/opencv2/viz.hpp
+CMakeFiles/triangulation_0322.dir/MatrixCalculation.cpp.o: /usr/local/include/opencv2/viz/types.hpp
+CMakeFiles/triangulation_0322.dir/MatrixCalculation.cpp.o: /usr/local/include/opencv2/viz/viz3d.hpp
+CMakeFiles/triangulation_0322.dir/MatrixCalculation.cpp.o: /usr/local/include/opencv2/viz/vizcore.hpp
+CMakeFiles/triangulation_0322.dir/MatrixCalculation.cpp.o: /usr/local/include/opencv2/viz/widgets.hpp
 
 CMakeFiles/triangulation_0322.dir/ORBMatching.cpp.o: ../ORBMatching.cpp
 CMakeFiles/triangulation_0322.dir/ORBMatching.cpp.o: ../ORBMatching.h
@@ -152,8 +148,6 @@ CMakeFiles/triangulation_0322.dir/ORBMatching.cpp.o: /usr/local/include/opencv2/
 CMakeFiles/triangulation_0322.dir/ORBMatching.cpp.o: /usr/local/include/opencv2/core/cuda.hpp
 CMakeFiles/triangulation_0322.dir/ORBMatching.cpp.o: /usr/local/include/opencv2/core/cuda.inl.hpp
 CMakeFiles/triangulation_0322.dir/ORBMatching.cpp.o: /usr/local/include/opencv2/core/cuda_types.hpp
-CMakeFiles/triangulation_0322.dir/ORBMatching.cpp.o: /usr/local/include/opencv2/core/cv_cpu_dispatch.h
-CMakeFiles/triangulation_0322.dir/ORBMatching.cpp.o: /usr/local/include/opencv2/core/cv_cpu_helper.h
 CMakeFiles/triangulation_0322.dir/ORBMatching.cpp.o: /usr/local/include/opencv2/core/cvdef.h
 CMakeFiles/triangulation_0322.dir/ORBMatching.cpp.o: /usr/local/include/opencv2/core/cvstd.hpp
 CMakeFiles/triangulation_0322.dir/ORBMatching.cpp.o: /usr/local/include/opencv2/core/cvstd.inl.hpp
@@ -174,12 +168,6 @@ CMakeFiles/triangulation_0322.dir/ORBMatching.cpp.o: /usr/local/include/opencv2/
 CMakeFiles/triangulation_0322.dir/ORBMatching.cpp.o: /usr/local/include/opencv2/core/types_c.h
 CMakeFiles/triangulation_0322.dir/ORBMatching.cpp.o: /usr/local/include/opencv2/core/utility.hpp
 CMakeFiles/triangulation_0322.dir/ORBMatching.cpp.o: /usr/local/include/opencv2/core/version.hpp
-CMakeFiles/triangulation_0322.dir/ORBMatching.cpp.o: /usr/local/include/opencv2/core/vsx_utils.hpp
-CMakeFiles/triangulation_0322.dir/ORBMatching.cpp.o: /usr/local/include/opencv2/dnn.hpp
-CMakeFiles/triangulation_0322.dir/ORBMatching.cpp.o: /usr/local/include/opencv2/dnn/dict.hpp
-CMakeFiles/triangulation_0322.dir/ORBMatching.cpp.o: /usr/local/include/opencv2/dnn/dnn.hpp
-CMakeFiles/triangulation_0322.dir/ORBMatching.cpp.o: /usr/local/include/opencv2/dnn/dnn.inl.hpp
-CMakeFiles/triangulation_0322.dir/ORBMatching.cpp.o: /usr/local/include/opencv2/dnn/layer.hpp
 CMakeFiles/triangulation_0322.dir/ORBMatching.cpp.o: /usr/local/include/opencv2/features2d.hpp
 CMakeFiles/triangulation_0322.dir/ORBMatching.cpp.o: /usr/local/include/opencv2/features2d/features2d.hpp
 CMakeFiles/triangulation_0322.dir/ORBMatching.cpp.o: /usr/local/include/opencv2/flann.hpp
@@ -223,7 +211,6 @@ CMakeFiles/triangulation_0322.dir/ORBMatching.cpp.o: /usr/local/include/opencv2/
 CMakeFiles/triangulation_0322.dir/ORBMatching.cpp.o: /usr/local/include/opencv2/imgproc/imgproc_c.h
 CMakeFiles/triangulation_0322.dir/ORBMatching.cpp.o: /usr/local/include/opencv2/imgproc/types_c.h
 CMakeFiles/triangulation_0322.dir/ORBMatching.cpp.o: /usr/local/include/opencv2/ml.hpp
-CMakeFiles/triangulation_0322.dir/ORBMatching.cpp.o: /usr/local/include/opencv2/ml/ml.inl.hpp
 CMakeFiles/triangulation_0322.dir/ORBMatching.cpp.o: /usr/local/include/opencv2/objdetect.hpp
 CMakeFiles/triangulation_0322.dir/ORBMatching.cpp.o: /usr/local/include/opencv2/objdetect/detection_based_tracker.hpp
 CMakeFiles/triangulation_0322.dir/ORBMatching.cpp.o: /usr/local/include/opencv2/objdetect/objdetect_c.h
@@ -271,6 +258,11 @@ CMakeFiles/triangulation_0322.dir/ORBMatching.cpp.o: /usr/local/include/opencv2/
 CMakeFiles/triangulation_0322.dir/ORBMatching.cpp.o: /usr/local/include/opencv2/videostab/ring_buffer.hpp
 CMakeFiles/triangulation_0322.dir/ORBMatching.cpp.o: /usr/local/include/opencv2/videostab/stabilizer.hpp
 CMakeFiles/triangulation_0322.dir/ORBMatching.cpp.o: /usr/local/include/opencv2/videostab/wobble_suppression.hpp
+CMakeFiles/triangulation_0322.dir/ORBMatching.cpp.o: /usr/local/include/opencv2/viz.hpp
+CMakeFiles/triangulation_0322.dir/ORBMatching.cpp.o: /usr/local/include/opencv2/viz/types.hpp
+CMakeFiles/triangulation_0322.dir/ORBMatching.cpp.o: /usr/local/include/opencv2/viz/viz3d.hpp
+CMakeFiles/triangulation_0322.dir/ORBMatching.cpp.o: /usr/local/include/opencv2/viz/vizcore.hpp
+CMakeFiles/triangulation_0322.dir/ORBMatching.cpp.o: /usr/local/include/opencv2/viz/widgets.hpp
 
 CMakeFiles/triangulation_0322.dir/common.cpp.o: ../MatrixCalculation.h
 CMakeFiles/triangulation_0322.dir/common.cpp.o: ../ORBMatching.h
@@ -289,8 +281,6 @@ CMakeFiles/triangulation_0322.dir/common.cpp.o: /usr/local/include/opencv2/core/
 CMakeFiles/triangulation_0322.dir/common.cpp.o: /usr/local/include/opencv2/core/cuda.hpp
 CMakeFiles/triangulation_0322.dir/common.cpp.o: /usr/local/include/opencv2/core/cuda.inl.hpp
 CMakeFiles/triangulation_0322.dir/common.cpp.o: /usr/local/include/opencv2/core/cuda_types.hpp
-CMakeFiles/triangulation_0322.dir/common.cpp.o: /usr/local/include/opencv2/core/cv_cpu_dispatch.h
-CMakeFiles/triangulation_0322.dir/common.cpp.o: /usr/local/include/opencv2/core/cv_cpu_helper.h
 CMakeFiles/triangulation_0322.dir/common.cpp.o: /usr/local/include/opencv2/core/cvdef.h
 CMakeFiles/triangulation_0322.dir/common.cpp.o: /usr/local/include/opencv2/core/cvstd.hpp
 CMakeFiles/triangulation_0322.dir/common.cpp.o: /usr/local/include/opencv2/core/cvstd.inl.hpp
@@ -311,12 +301,6 @@ CMakeFiles/triangulation_0322.dir/common.cpp.o: /usr/local/include/opencv2/core/
 CMakeFiles/triangulation_0322.dir/common.cpp.o: /usr/local/include/opencv2/core/types_c.h
 CMakeFiles/triangulation_0322.dir/common.cpp.o: /usr/local/include/opencv2/core/utility.hpp
 CMakeFiles/triangulation_0322.dir/common.cpp.o: /usr/local/include/opencv2/core/version.hpp
-CMakeFiles/triangulation_0322.dir/common.cpp.o: /usr/local/include/opencv2/core/vsx_utils.hpp
-CMakeFiles/triangulation_0322.dir/common.cpp.o: /usr/local/include/opencv2/dnn.hpp
-CMakeFiles/triangulation_0322.dir/common.cpp.o: /usr/local/include/opencv2/dnn/dict.hpp
-CMakeFiles/triangulation_0322.dir/common.cpp.o: /usr/local/include/opencv2/dnn/dnn.hpp
-CMakeFiles/triangulation_0322.dir/common.cpp.o: /usr/local/include/opencv2/dnn/dnn.inl.hpp
-CMakeFiles/triangulation_0322.dir/common.cpp.o: /usr/local/include/opencv2/dnn/layer.hpp
 CMakeFiles/triangulation_0322.dir/common.cpp.o: /usr/local/include/opencv2/features2d.hpp
 CMakeFiles/triangulation_0322.dir/common.cpp.o: /usr/local/include/opencv2/features2d/features2d.hpp
 CMakeFiles/triangulation_0322.dir/common.cpp.o: /usr/local/include/opencv2/flann.hpp
@@ -360,7 +344,6 @@ CMakeFiles/triangulation_0322.dir/common.cpp.o: /usr/local/include/opencv2/imgpr
 CMakeFiles/triangulation_0322.dir/common.cpp.o: /usr/local/include/opencv2/imgproc/imgproc_c.h
 CMakeFiles/triangulation_0322.dir/common.cpp.o: /usr/local/include/opencv2/imgproc/types_c.h
 CMakeFiles/triangulation_0322.dir/common.cpp.o: /usr/local/include/opencv2/ml.hpp
-CMakeFiles/triangulation_0322.dir/common.cpp.o: /usr/local/include/opencv2/ml/ml.inl.hpp
 CMakeFiles/triangulation_0322.dir/common.cpp.o: /usr/local/include/opencv2/objdetect.hpp
 CMakeFiles/triangulation_0322.dir/common.cpp.o: /usr/local/include/opencv2/objdetect/detection_based_tracker.hpp
 CMakeFiles/triangulation_0322.dir/common.cpp.o: /usr/local/include/opencv2/objdetect/objdetect_c.h
@@ -408,6 +391,11 @@ CMakeFiles/triangulation_0322.dir/common.cpp.o: /usr/local/include/opencv2/video
 CMakeFiles/triangulation_0322.dir/common.cpp.o: /usr/local/include/opencv2/videostab/ring_buffer.hpp
 CMakeFiles/triangulation_0322.dir/common.cpp.o: /usr/local/include/opencv2/videostab/stabilizer.hpp
 CMakeFiles/triangulation_0322.dir/common.cpp.o: /usr/local/include/opencv2/videostab/wobble_suppression.hpp
+CMakeFiles/triangulation_0322.dir/common.cpp.o: /usr/local/include/opencv2/viz.hpp
+CMakeFiles/triangulation_0322.dir/common.cpp.o: /usr/local/include/opencv2/viz/types.hpp
+CMakeFiles/triangulation_0322.dir/common.cpp.o: /usr/local/include/opencv2/viz/viz3d.hpp
+CMakeFiles/triangulation_0322.dir/common.cpp.o: /usr/local/include/opencv2/viz/vizcore.hpp
+CMakeFiles/triangulation_0322.dir/common.cpp.o: /usr/local/include/opencv2/viz/widgets.hpp
 
 CMakeFiles/triangulation_0322.dir/main.cpp.o: ../MatrixCalculation.h
 CMakeFiles/triangulation_0322.dir/main.cpp.o: ../ORBMatching.h
@@ -426,8 +414,6 @@ CMakeFiles/triangulation_0322.dir/main.cpp.o: /usr/local/include/opencv2/core/co
 CMakeFiles/triangulation_0322.dir/main.cpp.o: /usr/local/include/opencv2/core/cuda.hpp
 CMakeFiles/triangulation_0322.dir/main.cpp.o: /usr/local/include/opencv2/core/cuda.inl.hpp
 CMakeFiles/triangulation_0322.dir/main.cpp.o: /usr/local/include/opencv2/core/cuda_types.hpp
-CMakeFiles/triangulation_0322.dir/main.cpp.o: /usr/local/include/opencv2/core/cv_cpu_dispatch.h
-CMakeFiles/triangulation_0322.dir/main.cpp.o: /usr/local/include/opencv2/core/cv_cpu_helper.h
 CMakeFiles/triangulation_0322.dir/main.cpp.o: /usr/local/include/opencv2/core/cvdef.h
 CMakeFiles/triangulation_0322.dir/main.cpp.o: /usr/local/include/opencv2/core/cvstd.hpp
 CMakeFiles/triangulation_0322.dir/main.cpp.o: /usr/local/include/opencv2/core/cvstd.inl.hpp
@@ -448,12 +434,6 @@ CMakeFiles/triangulation_0322.dir/main.cpp.o: /usr/local/include/opencv2/core/ty
 CMakeFiles/triangulation_0322.dir/main.cpp.o: /usr/local/include/opencv2/core/types_c.h
 CMakeFiles/triangulation_0322.dir/main.cpp.o: /usr/local/include/opencv2/core/utility.hpp
 CMakeFiles/triangulation_0322.dir/main.cpp.o: /usr/local/include/opencv2/core/version.hpp
-CMakeFiles/triangulation_0322.dir/main.cpp.o: /usr/local/include/opencv2/core/vsx_utils.hpp
-CMakeFiles/triangulation_0322.dir/main.cpp.o: /usr/local/include/opencv2/dnn.hpp
-CMakeFiles/triangulation_0322.dir/main.cpp.o: /usr/local/include/opencv2/dnn/dict.hpp
-CMakeFiles/triangulation_0322.dir/main.cpp.o: /usr/local/include/opencv2/dnn/dnn.hpp
-CMakeFiles/triangulation_0322.dir/main.cpp.o: /usr/local/include/opencv2/dnn/dnn.inl.hpp
-CMakeFiles/triangulation_0322.dir/main.cpp.o: /usr/local/include/opencv2/dnn/layer.hpp
 CMakeFiles/triangulation_0322.dir/main.cpp.o: /usr/local/include/opencv2/features2d.hpp
 CMakeFiles/triangulation_0322.dir/main.cpp.o: /usr/local/include/opencv2/features2d/features2d.hpp
 CMakeFiles/triangulation_0322.dir/main.cpp.o: /usr/local/include/opencv2/flann.hpp
@@ -497,7 +477,6 @@ CMakeFiles/triangulation_0322.dir/main.cpp.o: /usr/local/include/opencv2/imgproc
 CMakeFiles/triangulation_0322.dir/main.cpp.o: /usr/local/include/opencv2/imgproc/imgproc_c.h
 CMakeFiles/triangulation_0322.dir/main.cpp.o: /usr/local/include/opencv2/imgproc/types_c.h
 CMakeFiles/triangulation_0322.dir/main.cpp.o: /usr/local/include/opencv2/ml.hpp
-CMakeFiles/triangulation_0322.dir/main.cpp.o: /usr/local/include/opencv2/ml/ml.inl.hpp
 CMakeFiles/triangulation_0322.dir/main.cpp.o: /usr/local/include/opencv2/objdetect.hpp
 CMakeFiles/triangulation_0322.dir/main.cpp.o: /usr/local/include/opencv2/objdetect/detection_based_tracker.hpp
 CMakeFiles/triangulation_0322.dir/main.cpp.o: /usr/local/include/opencv2/objdetect/objdetect_c.h
@@ -545,4 +524,9 @@ CMakeFiles/triangulation_0322.dir/main.cpp.o: /usr/local/include/opencv2/videost
 CMakeFiles/triangulation_0322.dir/main.cpp.o: /usr/local/include/opencv2/videostab/ring_buffer.hpp
 CMakeFiles/triangulation_0322.dir/main.cpp.o: /usr/local/include/opencv2/videostab/stabilizer.hpp
 CMakeFiles/triangulation_0322.dir/main.cpp.o: /usr/local/include/opencv2/videostab/wobble_suppression.hpp
+CMakeFiles/triangulation_0322.dir/main.cpp.o: /usr/local/include/opencv2/viz.hpp
+CMakeFiles/triangulation_0322.dir/main.cpp.o: /usr/local/include/opencv2/viz/types.hpp
+CMakeFiles/triangulation_0322.dir/main.cpp.o: /usr/local/include/opencv2/viz/viz3d.hpp
+CMakeFiles/triangulation_0322.dir/main.cpp.o: /usr/local/include/opencv2/viz/vizcore.hpp
+CMakeFiles/triangulation_0322.dir/main.cpp.o: /usr/local/include/opencv2/viz/widgets.hpp
 

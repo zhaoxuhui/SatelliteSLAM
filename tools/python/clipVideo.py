@@ -51,14 +51,13 @@ def clipVideo(video_path, out_path, start, end):
     cap.set(cv2.CAP_PROP_POS_FRAMES, startIndex)
 
     # 循环输出帧
-    for i in range(startIndex, endIndex, 1):
-        cap.set(cv2.CAP_PROP_POS_FRAMES, i)
+    for i in range(endIndex - startIndex):
         ret, frame = cap.read()
         if frame is None:
             break
         else:
             out.write(frame)
-            print ('Cutting...' + round(((i - startIndex) * 1.0 / (rangeFrames)) * 100, 2).__str__() + "% finished.")
+            print("Cutting..." + (startIndex + i).__str__() + "/" + rangeFrames.__str__())
     # 释放对象
     cap.release()
     out.release()

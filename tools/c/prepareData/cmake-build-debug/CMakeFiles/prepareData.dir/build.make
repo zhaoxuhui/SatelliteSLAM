@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /root/下载/clion-2018.1/bin/cmake/bin/cmake
+CMAKE_COMMAND = /root/programs/clion-2018.1.1/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /root/下载/clion-2018.1/bin/cmake/bin/cmake -E remove -f
+RM = /root/programs/clion-2018.1.1/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/SatelliteSLAM/tools/c/prepareData
+CMAKE_SOURCE_DIR = /media/root/ZhaoXuhui/code/SatelliteSLAM/tools/c/prepareData
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/SatelliteSLAM/tools/c/prepareData/cmake-build-debug
+CMAKE_BINARY_DIR = /media/root/ZhaoXuhui/code/SatelliteSLAM/tools/c/prepareData/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/prepareData.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/prepareData.dir/flags.make
 
 CMakeFiles/prepareData.dir/main.cpp.o: CMakeFiles/prepareData.dir/flags.make
 CMakeFiles/prepareData.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/SatelliteSLAM/tools/c/prepareData/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/prepareData.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/prepareData.dir/main.cpp.o -c /root/SatelliteSLAM/tools/c/prepareData/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/root/ZhaoXuhui/code/SatelliteSLAM/tools/c/prepareData/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/prepareData.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/prepareData.dir/main.cpp.o -c /media/root/ZhaoXuhui/code/SatelliteSLAM/tools/c/prepareData/main.cpp
 
 CMakeFiles/prepareData.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/prepareData.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/SatelliteSLAM/tools/c/prepareData/main.cpp > CMakeFiles/prepareData.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/root/ZhaoXuhui/code/SatelliteSLAM/tools/c/prepareData/main.cpp > CMakeFiles/prepareData.dir/main.cpp.i
 
 CMakeFiles/prepareData.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/prepareData.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/SatelliteSLAM/tools/c/prepareData/main.cpp -o CMakeFiles/prepareData.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/root/ZhaoXuhui/code/SatelliteSLAM/tools/c/prepareData/main.cpp -o CMakeFiles/prepareData.dir/main.cpp.s
 
 CMakeFiles/prepareData.dir/main.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/prepareData.dir/main.cpp.o.provides.build: CMakeFiles/prepareData.dir
 
 CMakeFiles/prepareData.dir/tinyxml2.cpp.o: CMakeFiles/prepareData.dir/flags.make
 CMakeFiles/prepareData.dir/tinyxml2.cpp.o: ../tinyxml2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/SatelliteSLAM/tools/c/prepareData/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/prepareData.dir/tinyxml2.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/prepareData.dir/tinyxml2.cpp.o -c /root/SatelliteSLAM/tools/c/prepareData/tinyxml2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/root/ZhaoXuhui/code/SatelliteSLAM/tools/c/prepareData/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/prepareData.dir/tinyxml2.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/prepareData.dir/tinyxml2.cpp.o -c /media/root/ZhaoXuhui/code/SatelliteSLAM/tools/c/prepareData/tinyxml2.cpp
 
 CMakeFiles/prepareData.dir/tinyxml2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/prepareData.dir/tinyxml2.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/SatelliteSLAM/tools/c/prepareData/tinyxml2.cpp > CMakeFiles/prepareData.dir/tinyxml2.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/root/ZhaoXuhui/code/SatelliteSLAM/tools/c/prepareData/tinyxml2.cpp > CMakeFiles/prepareData.dir/tinyxml2.cpp.i
 
 CMakeFiles/prepareData.dir/tinyxml2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/prepareData.dir/tinyxml2.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/SatelliteSLAM/tools/c/prepareData/tinyxml2.cpp -o CMakeFiles/prepareData.dir/tinyxml2.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/root/ZhaoXuhui/code/SatelliteSLAM/tools/c/prepareData/tinyxml2.cpp -o CMakeFiles/prepareData.dir/tinyxml2.cpp.s
 
 CMakeFiles/prepareData.dir/tinyxml2.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/prepareData.dir/tinyxml2.cpp.o.provides.build: CMakeFiles/prepareData
 
 CMakeFiles/prepareData.dir/BasicFunc.cpp.o: CMakeFiles/prepareData.dir/flags.make
 CMakeFiles/prepareData.dir/BasicFunc.cpp.o: ../BasicFunc.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/SatelliteSLAM/tools/c/prepareData/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/prepareData.dir/BasicFunc.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/prepareData.dir/BasicFunc.cpp.o -c /root/SatelliteSLAM/tools/c/prepareData/BasicFunc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/root/ZhaoXuhui/code/SatelliteSLAM/tools/c/prepareData/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/prepareData.dir/BasicFunc.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/prepareData.dir/BasicFunc.cpp.o -c /media/root/ZhaoXuhui/code/SatelliteSLAM/tools/c/prepareData/BasicFunc.cpp
 
 CMakeFiles/prepareData.dir/BasicFunc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/prepareData.dir/BasicFunc.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/SatelliteSLAM/tools/c/prepareData/BasicFunc.cpp > CMakeFiles/prepareData.dir/BasicFunc.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/root/ZhaoXuhui/code/SatelliteSLAM/tools/c/prepareData/BasicFunc.cpp > CMakeFiles/prepareData.dir/BasicFunc.cpp.i
 
 CMakeFiles/prepareData.dir/BasicFunc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/prepareData.dir/BasicFunc.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/SatelliteSLAM/tools/c/prepareData/BasicFunc.cpp -o CMakeFiles/prepareData.dir/BasicFunc.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/root/ZhaoXuhui/code/SatelliteSLAM/tools/c/prepareData/BasicFunc.cpp -o CMakeFiles/prepareData.dir/BasicFunc.cpp.s
 
 CMakeFiles/prepareData.dir/BasicFunc.cpp.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/prepareData.dir/BasicFunc.cpp.o.provides.build: CMakeFiles/prepareDat
 
 CMakeFiles/prepareData.dir/DataProcess.cpp.o: CMakeFiles/prepareData.dir/flags.make
 CMakeFiles/prepareData.dir/DataProcess.cpp.o: ../DataProcess.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/SatelliteSLAM/tools/c/prepareData/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/prepareData.dir/DataProcess.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/prepareData.dir/DataProcess.cpp.o -c /root/SatelliteSLAM/tools/c/prepareData/DataProcess.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/root/ZhaoXuhui/code/SatelliteSLAM/tools/c/prepareData/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/prepareData.dir/DataProcess.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/prepareData.dir/DataProcess.cpp.o -c /media/root/ZhaoXuhui/code/SatelliteSLAM/tools/c/prepareData/DataProcess.cpp
 
 CMakeFiles/prepareData.dir/DataProcess.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/prepareData.dir/DataProcess.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/SatelliteSLAM/tools/c/prepareData/DataProcess.cpp > CMakeFiles/prepareData.dir/DataProcess.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/root/ZhaoXuhui/code/SatelliteSLAM/tools/c/prepareData/DataProcess.cpp > CMakeFiles/prepareData.dir/DataProcess.cpp.i
 
 CMakeFiles/prepareData.dir/DataProcess.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/prepareData.dir/DataProcess.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/SatelliteSLAM/tools/c/prepareData/DataProcess.cpp -o CMakeFiles/prepareData.dir/DataProcess.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/root/ZhaoXuhui/code/SatelliteSLAM/tools/c/prepareData/DataProcess.cpp -o CMakeFiles/prepareData.dir/DataProcess.cpp.s
 
 CMakeFiles/prepareData.dir/DataProcess.cpp.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/prepareData.dir/DataProcess.cpp.o.provides.build: CMakeFiles/prepareD
 
 CMakeFiles/prepareData.dir/ORBMatching.cpp.o: CMakeFiles/prepareData.dir/flags.make
 CMakeFiles/prepareData.dir/ORBMatching.cpp.o: ../ORBMatching.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/SatelliteSLAM/tools/c/prepareData/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/prepareData.dir/ORBMatching.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/prepareData.dir/ORBMatching.cpp.o -c /root/SatelliteSLAM/tools/c/prepareData/ORBMatching.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/root/ZhaoXuhui/code/SatelliteSLAM/tools/c/prepareData/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/prepareData.dir/ORBMatching.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/prepareData.dir/ORBMatching.cpp.o -c /media/root/ZhaoXuhui/code/SatelliteSLAM/tools/c/prepareData/ORBMatching.cpp
 
 CMakeFiles/prepareData.dir/ORBMatching.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/prepareData.dir/ORBMatching.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/SatelliteSLAM/tools/c/prepareData/ORBMatching.cpp > CMakeFiles/prepareData.dir/ORBMatching.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/root/ZhaoXuhui/code/SatelliteSLAM/tools/c/prepareData/ORBMatching.cpp > CMakeFiles/prepareData.dir/ORBMatching.cpp.i
 
 CMakeFiles/prepareData.dir/ORBMatching.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/prepareData.dir/ORBMatching.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/SatelliteSLAM/tools/c/prepareData/ORBMatching.cpp -o CMakeFiles/prepareData.dir/ORBMatching.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/root/ZhaoXuhui/code/SatelliteSLAM/tools/c/prepareData/ORBMatching.cpp -o CMakeFiles/prepareData.dir/ORBMatching.cpp.s
 
 CMakeFiles/prepareData.dir/ORBMatching.cpp.o.requires:
 
@@ -194,26 +194,26 @@ prepareData: CMakeFiles/prepareData.dir/BasicFunc.cpp.o
 prepareData: CMakeFiles/prepareData.dir/DataProcess.cpp.o
 prepareData: CMakeFiles/prepareData.dir/ORBMatching.cpp.o
 prepareData: CMakeFiles/prepareData.dir/build.make
-prepareData: /usr/local/lib/libopencv_shape.so.3.2.0
-prepareData: /usr/local/lib/libopencv_stitching.so.3.2.0
-prepareData: /usr/local/lib/libopencv_superres.so.3.2.0
-prepareData: /usr/local/lib/libopencv_videostab.so.3.2.0
-prepareData: /usr/local/lib/libopencv_viz.so.3.2.0
-prepareData: /usr/local/lib/libDBoW3.a
-prepareData: /usr/local/lib/libopencv_objdetect.so.3.2.0
-prepareData: /usr/local/lib/libopencv_calib3d.so.3.2.0
-prepareData: /usr/local/lib/libopencv_features2d.so.3.2.0
-prepareData: /usr/local/lib/libopencv_flann.so.3.2.0
-prepareData: /usr/local/lib/libopencv_highgui.so.3.2.0
-prepareData: /usr/local/lib/libopencv_ml.so.3.2.0
-prepareData: /usr/local/lib/libopencv_photo.so.3.2.0
-prepareData: /usr/local/lib/libopencv_video.so.3.2.0
-prepareData: /usr/local/lib/libopencv_videoio.so.3.2.0
-prepareData: /usr/local/lib/libopencv_imgcodecs.so.3.2.0
-prepareData: /usr/local/lib/libopencv_imgproc.so.3.2.0
-prepareData: /usr/local/lib/libopencv_core.so.3.2.0
+prepareData: /usr/local/lib/libopencv_stitching.so.3.4.1
+prepareData: /usr/local/lib/libopencv_videostab.so.3.4.1
+prepareData: /usr/local/lib/libopencv_superres.so.3.4.1
+prepareData: /usr/local/lib/libopencv_calib3d.so.3.4.1
+prepareData: /usr/local/lib/libopencv_objdetect.so.3.4.1
+prepareData: /usr/local/lib/libopencv_ml.so.3.4.1
+prepareData: /usr/local/lib/libopencv_dnn.so.3.4.1
+prepareData: /usr/local/lib/libopencv_shape.so.3.4.1
+prepareData: /usr/local/lib/libDBoW3.so
+prepareData: /usr/local/lib/libopencv_photo.so.3.4.1
+prepareData: /usr/local/lib/libopencv_features2d.so.3.4.1
+prepareData: /usr/local/lib/libopencv_highgui.so.3.4.1
+prepareData: /usr/local/lib/libopencv_flann.so.3.4.1
+prepareData: /usr/local/lib/libopencv_videoio.so.3.4.1
+prepareData: /usr/local/lib/libopencv_imgcodecs.so.3.4.1
+prepareData: /usr/local/lib/libopencv_video.so.3.4.1
+prepareData: /usr/local/lib/libopencv_imgproc.so.3.4.1
+prepareData: /usr/local/lib/libopencv_core.so.3.4.1
 prepareData: CMakeFiles/prepareData.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/SatelliteSLAM/tools/c/prepareData/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable prepareData"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/media/root/ZhaoXuhui/code/SatelliteSLAM/tools/c/prepareData/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable prepareData"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/prepareData.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -234,6 +234,6 @@ CMakeFiles/prepareData.dir/clean:
 .PHONY : CMakeFiles/prepareData.dir/clean
 
 CMakeFiles/prepareData.dir/depend:
-	cd /root/SatelliteSLAM/tools/c/prepareData/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/SatelliteSLAM/tools/c/prepareData /root/SatelliteSLAM/tools/c/prepareData /root/SatelliteSLAM/tools/c/prepareData/cmake-build-debug /root/SatelliteSLAM/tools/c/prepareData/cmake-build-debug /root/SatelliteSLAM/tools/c/prepareData/cmake-build-debug/CMakeFiles/prepareData.dir/DependInfo.cmake --color=$(COLOR)
+	cd /media/root/ZhaoXuhui/code/SatelliteSLAM/tools/c/prepareData/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /media/root/ZhaoXuhui/code/SatelliteSLAM/tools/c/prepareData /media/root/ZhaoXuhui/code/SatelliteSLAM/tools/c/prepareData /media/root/ZhaoXuhui/code/SatelliteSLAM/tools/c/prepareData/cmake-build-debug /media/root/ZhaoXuhui/code/SatelliteSLAM/tools/c/prepareData/cmake-build-debug /media/root/ZhaoXuhui/code/SatelliteSLAM/tools/c/prepareData/cmake-build-debug/CMakeFiles/prepareData.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/prepareData.dir/depend
 

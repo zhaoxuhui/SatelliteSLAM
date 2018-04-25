@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/media/root/Zhao Xuhui/code/SatelliteSLAM/tools/c/triangulation_0322/MatrixCalculation.cpp
+/media/root/ZhaoXuhui/code/SatelliteSLAM/tools/c/triangulation_0322/MatrixCalculation.cpp
 iostream
 -
 opencv2/core/core.hpp
@@ -24,13 +24,13 @@ dirent.h
 string
 -
 ORBMatching.h
-/media/root/Zhao Xuhui/code/SatelliteSLAM/tools/c/triangulation_0322/ORBMatching.h
+/media/root/ZhaoXuhui/code/SatelliteSLAM/tools/c/triangulation_0322/ORBMatching.h
 common.h
-/media/root/Zhao Xuhui/code/SatelliteSLAM/tools/c/triangulation_0322/common.h
+/media/root/ZhaoXuhui/code/SatelliteSLAM/tools/c/triangulation_0322/common.h
 math.h
 -
 
-/media/root/Zhao Xuhui/code/SatelliteSLAM/tools/c/triangulation_0322/MatrixCalculation.h
+/media/root/ZhaoXuhui/code/SatelliteSLAM/tools/c/triangulation_0322/MatrixCalculation.h
 iostream
 -
 opencv2/core/core.hpp
@@ -48,11 +48,11 @@ dirent.h
 string
 -
 ORBMatching.h
-/media/root/Zhao Xuhui/code/SatelliteSLAM/tools/c/triangulation_0322/ORBMatching.h
+/media/root/ZhaoXuhui/code/SatelliteSLAM/tools/c/triangulation_0322/ORBMatching.h
 common.h
-/media/root/Zhao Xuhui/code/SatelliteSLAM/tools/c/triangulation_0322/common.h
+/media/root/ZhaoXuhui/code/SatelliteSLAM/tools/c/triangulation_0322/common.h
 
-/media/root/Zhao Xuhui/code/SatelliteSLAM/tools/c/triangulation_0322/ORBMatching.cpp
+/media/root/ZhaoXuhui/code/SatelliteSLAM/tools/c/triangulation_0322/ORBMatching.cpp
 iostream
 -
 opencv2/core/core.hpp
@@ -70,9 +70,9 @@ dirent.h
 string
 -
 ORBMatching.h
-/media/root/Zhao Xuhui/code/SatelliteSLAM/tools/c/triangulation_0322/ORBMatching.h
+/media/root/ZhaoXuhui/code/SatelliteSLAM/tools/c/triangulation_0322/ORBMatching.h
 
-/media/root/Zhao Xuhui/code/SatelliteSLAM/tools/c/triangulation_0322/ORBMatching.h
+/media/root/ZhaoXuhui/code/SatelliteSLAM/tools/c/triangulation_0322/ORBMatching.h
 iostream
 -
 opencv2/core/core.hpp
@@ -90,7 +90,7 @@ dirent.h
 string
 -
 
-/media/root/Zhao Xuhui/code/SatelliteSLAM/tools/c/triangulation_0322/common.cpp
+/media/root/ZhaoXuhui/code/SatelliteSLAM/tools/c/triangulation_0322/common.cpp
 iostream
 -
 opencv2/core/core.hpp
@@ -108,13 +108,13 @@ dirent.h
 string
 -
 MatrixCalculation.h
-/media/root/Zhao Xuhui/code/SatelliteSLAM/tools/c/triangulation_0322/MatrixCalculation.h
+/media/root/ZhaoXuhui/code/SatelliteSLAM/tools/c/triangulation_0322/MatrixCalculation.h
 fstream
 -
 math.h
 -
 
-/media/root/Zhao Xuhui/code/SatelliteSLAM/tools/c/triangulation_0322/common.h
+/media/root/ZhaoXuhui/code/SatelliteSLAM/tools/c/triangulation_0322/common.h
 iostream
 -
 opencv2/core/core.hpp
@@ -132,7 +132,7 @@ dirent.h
 string
 -
 
-/media/root/Zhao Xuhui/code/SatelliteSLAM/tools/c/triangulation_0322/main.cpp
+/media/root/ZhaoXuhui/code/SatelliteSLAM/tools/c/triangulation_0322/main.cpp
 iostream
 -
 opencv2/core/core.hpp
@@ -150,11 +150,11 @@ dirent.h
 string
 -
 ORBMatching.h
-/media/root/Zhao Xuhui/code/SatelliteSLAM/tools/c/triangulation_0322/ORBMatching.h
+/media/root/ZhaoXuhui/code/SatelliteSLAM/tools/c/triangulation_0322/ORBMatching.h
 MatrixCalculation.h
-/media/root/Zhao Xuhui/code/SatelliteSLAM/tools/c/triangulation_0322/MatrixCalculation.h
+/media/root/ZhaoXuhui/code/SatelliteSLAM/tools/c/triangulation_0322/MatrixCalculation.h
 common.h
-/media/root/Zhao Xuhui/code/SatelliteSLAM/tools/c/triangulation_0322/common.h
+/media/root/ZhaoXuhui/code/SatelliteSLAM/tools/c/triangulation_0322/common.h
 
 /usr/local/include/opencv/cxcore.h
 opencv2/core/core_c.h
@@ -259,60 +259,6 @@ opencv2/core/cuda.hpp
 /usr/local/include/opencv2/core/opencv2/core/cuda.hpp
 
 /usr/local/include/opencv2/core/cuda_types.hpp
-
-/usr/local/include/opencv2/core/cv_cpu_dispatch.h
-cv_cpu_config.h
-/usr/local/include/opencv2/core/cv_cpu_config.h
-cv_cpu_helper.h
-/usr/local/include/opencv2/core/cv_cpu_helper.h
-emmintrin.h
--
-pmmintrin.h
--
-tmmintrin.h
--
-smmintrin.h
--
-nmmintrin.h
--
-nmmintrin.h
--
-popcntintrin.h
--
-immintrin.h
--
-arm_neon.h
--
-immintrin.h
--
-immintrin.h
--
-immintrin.h
--
-immintrin.h
--
-Intrin.h
--
-arm_neon.h
--
-arm_neon.h
--
-arm_neon.h
--
-altivec.h
--
-emmintrin.h
--
-Intrin.h
--
-arm_neon.h
--
-arm_neon.h
--
-altivec.h
--
-
-/usr/local/include/opencv2/core/cv_cpu_helper.h
 
 /usr/local/include/opencv2/core/cvdef.h
 cvconfig.h
@@ -497,46 +443,6 @@ opencv2/core/core_c.h
 /usr/local/include/opencv2/core/opencv2/core/core_c.h
 
 /usr/local/include/opencv2/core/version.hpp
-
-/usr/local/include/opencv2/core/vsx_utils.hpp
-opencv2/core/cvdef.h
-/usr/local/include/opencv2/core/opencv2/core/cvdef.h
-assert.h
--
-
-/usr/local/include/opencv2/dnn.hpp
-opencv2/dnn/dnn.hpp
--
-
-/usr/local/include/opencv2/dnn/dict.hpp
-opencv2/core.hpp
--
-map
--
-ostream
--
-opencv2/dnn/dnn.hpp
--
-
-/usr/local/include/opencv2/dnn/dnn.hpp
-vector
--
-opencv2/core.hpp
--
-opencv2/dnn/dict.hpp
--
-opencv2/dnn/layer.hpp
--
-opencv2/dnn/dnn.inl.hpp
--
-
-/usr/local/include/opencv2/dnn/dnn.inl.hpp
-opencv2/dnn.hpp
--
-
-/usr/local/include/opencv2/dnn/layer.hpp
-opencv2/dnn.hpp
--
 
 /usr/local/include/opencv2/features2d.hpp
 opencv2/opencv_modules.hpp
@@ -1062,8 +968,6 @@ iostream
 opencv2/ml/ml.inl.hpp
 -
 
-/usr/local/include/opencv2/ml/ml.inl.hpp
-
 /usr/local/include/opencv2/objdetect.hpp
 opencv2/core.hpp
 /usr/local/include/opencv2/opencv2/core.hpp
@@ -1479,4 +1383,42 @@ opencv2/videostab/global_motion.hpp
 /usr/local/include/opencv2/videostab/opencv2/videostab/global_motion.hpp
 opencv2/videostab/log.hpp
 /usr/local/include/opencv2/videostab/opencv2/videostab/log.hpp
+
+/usr/local/include/opencv2/viz.hpp
+opencv2/viz/types.hpp
+-
+opencv2/viz/widgets.hpp
+-
+opencv2/viz/viz3d.hpp
+-
+opencv2/viz/vizcore.hpp
+-
+
+/usr/local/include/opencv2/viz/types.hpp
+string
+-
+opencv2/core.hpp
+-
+opencv2/core/affine.hpp
+-
+
+/usr/local/include/opencv2/viz/viz3d.hpp
+opencv2/core.hpp
+-
+opencv2/viz/types.hpp
+-
+opencv2/viz/widgets.hpp
+-
+
+/usr/local/include/opencv2/viz/vizcore.hpp
+opencv2/viz/types.hpp
+-
+opencv2/viz/widgets.hpp
+-
+opencv2/viz/viz3d.hpp
+-
+
+/usr/local/include/opencv2/viz/widgets.hpp
+opencv2/viz/types.hpp
+-
 

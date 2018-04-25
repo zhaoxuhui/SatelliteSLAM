@@ -1,7 +1,7 @@
-/media/root/Zhao Xuhui/code/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/install/strip.dir
-/media/root/Zhao Xuhui/code/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/install/local.dir
-/media/root/Zhao Xuhui/code/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/triangulation_0322.dir
-/media/root/Zhao Xuhui/code/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/edit_cache.dir
-/media/root/Zhao Xuhui/code/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/media/root/Zhao Xuhui/code/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/install.dir
-/media/root/Zhao Xuhui/code/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/list_install_components.dir
+/media/root/ZhaoXuhui/code/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/install/strip.dir
+/media/root/ZhaoXuhui/code/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/install/local.dir
+/media/root/ZhaoXuhui/code/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/install.dir
+/media/root/ZhaoXuhui/code/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/list_install_components.dir
+/media/root/ZhaoXuhui/code/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/media/root/ZhaoXuhui/code/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/edit_cache.dir
+/media/root/ZhaoXuhui/code/SatelliteSLAM/tools/c/triangulation_0322/cmake-build-debug/CMakeFiles/triangulation_0322.dir
