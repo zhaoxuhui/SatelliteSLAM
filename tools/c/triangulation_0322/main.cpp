@@ -36,8 +36,8 @@ int main(int argc, char **argv) {
     double dx = 1535.89;
     double dy = 2046.97;
     double f = 1536.2;
-    string input_dir = "/media/root/ZhaoXuhui/data/SLAM/satellite/Airport/jpg";
-    string output_dir = "/media/root/ZhaoXuhui/data/results/Airport";
+    string input_dir = "/media/root/ZhaoXuhui/data/SLAM/check2";
+    string output_dir = "/media/root/ZhaoXuhui/data/results/check2";
 
     vector<string> files = findFiles(input_dir);
   for(int i=0;i<files.size()-1;i++)
