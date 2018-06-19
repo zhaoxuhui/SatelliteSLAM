@@ -79,6 +79,6 @@ if sys.argv.__len__() == 2 and sys.argv[1] == "help":
     print("\n函数帮助:")
     exec ("help(generateVideo)")
 elif sys.argv.__len__() == 6:
-    generateVideo(sys.argv[1], sys.argv[2], int(sys.argv[3]), float(sys.argv[4]), int(sys.argv[5]))
+    generateVideo(sys.argv[1], sys.argv[2], sys.argv[3], float(sys.argv[4]), int(sys.argv[5]))
 else:
     print("Input \"scriptname.py help\" for help information.")
